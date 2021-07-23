@@ -9,7 +9,7 @@
     /*permette di manterene la navbar sempre in cima anche se si scorre la pagina*/
     top: 0;
     position: sticky;
-    padding: 20px 10%;
+    padding: 20px 15%;
     transition: all 0.5s;
 }
 
@@ -24,7 +24,7 @@
     justify-content: space-between;
     top: 0;
     position: sticky;
-    padding: 20px 10%;
+    padding: 20px 15%;
     transition: all 0.5s;
 }
 
@@ -77,18 +77,6 @@
         transition: all 0.5s;
     }
 
-    .logo{
-        cursor: pointer;
-        width: 20rem;
-        margin-left: 2rem;
-    }
-
-    .logoMobile{
-        cursor: pointer;
-        width: 5rem;
-        margin-left: 2rem;
-    }
-
     .navbarActive{
         display: flex;
         align-items: center;
@@ -102,6 +90,18 @@
         position: sticky;
         padding: 20px 0;
         transition: all 0.5s;
+    }
+
+    .logo{
+        cursor: pointer;
+        width: 20rem;
+        margin-left: 2rem;
+    }
+
+    .logoMobile{
+        cursor: pointer;
+        width: 5rem;
+        margin-left: 2rem;
     }
 
     .menu{
