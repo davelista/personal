@@ -1,0 +1,35 @@
+.button {
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 12px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.primary-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #0b4e6c;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+.primary-btn:hover:enabled {
+    background: #f59e24;
+    box-shadow: 0 20px 20px 0 rgba(132, 144, 255, 0.3);
+}

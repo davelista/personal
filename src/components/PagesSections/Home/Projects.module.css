@@ -1,0 +1,91 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    transition: all 350ms ease;
+}
+
+.title{
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.filters{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.filter{
+    color: #0b4e6c;
+    transition: all 0.5s ease 0s;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.filterActive{
+    margin-bottom: 0.4rem;
+    border-bottom: #f59e24 solid 2px;
+    color: #f59e24;
+    transition: all 0.5s ease 0s;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.filter:hover{
+    margin-bottom: 0.4rem;
+    border-bottom: #f59e24 solid 2px;
+    color: #f59e24;
+    transition: all 350ms ease;
+}
+
+@media (max-width: 1024px) {
+    .section{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4rem 0;
+    }
+
+    .filters{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-bottom: 3rem;
+        transition: all 1s ease-in-out;
+    }
+
+    .filter{
+        color: #0b4e6c;
+        transition: all 0.5s ease 0s;
+        margin-left: 0;
+        cursor: pointer;
+    }
+
+    .filterActive{
+        margin-bottom: 0.4rem;
+        border-bottom: #f59e24 solid 2px;
+        color: #f59e24;
+        transition: all 0.5s ease 0s;
+        margin-left: 0;
+        cursor: pointer;
+    }
+
+}

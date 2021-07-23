@@ -1,0 +1,94 @@
+
+  [
+    {
+      "title": "Tutoring - in fase di sviluppo",
+      "description": "Da ormai diversi anni svolgo un lavoro di tutoring a studenti di diverse età (in particolare frequentanti licei e università)",
+      "tag": "E-learning",
+      "datore": "Personale",
+      "internal": "",
+      "external": "https://tutoring.davidelista.com",
+      "github": ""
+    },
+    {
+      "title": "Learning Cefriel",
+      "description": "Cefriel, centro di innovazione digitale, ha da sempre avuto un ruolo fondamentale nello sviluppo delle competenze e della cultura...",
+      "tag": "E-learning",
+      "datore": "Cefriel",
+      "internal": "",
+      "external": "https://learning.cefriel.com",
+      "github": ""
+    },
+    {
+      "title": "dyblab",
+      "description": "Il progetto dyblab nasce nel 2017: i fondatori sono due studenti di Ingegneria Informatica presso il Politecnico di Milano...",
+      "tag": "Sviluppo",
+      "datore": "Personale",
+      "internal": "",
+      "external": "",
+      "github": ""
+    },
+    {
+      "title": "Predictive Maintenance",
+      "description": "Predictive Maintenance è un progetto europeo per la progettazione di un sistema di previsione che mira a ridurre gli stop...",
+      "tag": "Sviluppo",
+      "datore": "Cefriel",
+      "internal": "",
+      "external": "https://cefriel.it/",
+      "github": ""
+    },
+    {
+      "title": "Adrenalina",
+      "description": "Adrenalina è un gioco da tavolo sparatutto della Cranio Creations s.r.l.. Il progetto consisteva nello sviluppare, in gruppi...",
+      "tag": "Sviluppo",
+      "datore": "Università",
+      "internal": "",
+      "external": "",
+      "github": "https://github.com/Malacrida/ing-sw-2019-lista-lograsso-malacrida"
+    },
+    {
+      "title": "Social",
+      "description": "Come progetto del corso Algoritmi e Principi dell'informatica ho dovuto implementare in linguaggio C standard (con la sola libc)..",
+      "tag": "Sviluppo",
+      "datore": "Università",
+      "internal": "",
+      "external": "https://github.com/davelista/social.c/blob/master/api.c",
+      "github": ""
+    },
+    {
+      "title": "Manhattan distance",
+      "description": "Per il corso di Reti Logiche, assieme a un collega universitario, ho dovuto implementare in VHDL... ",
+      "tag": "Sviluppo",
+      "datore": "Università",
+      "internal": "",
+      "external": "https://github.com/davelista/manhattan-distance/blob/master/manhattan_distance.vhdl",
+      "github": ""
+    },
+    {
+      "title": "Turing Machine",
+      "description": "Come progetto del corso Algoritmi e Principi dell'Informatica ho dovuto implementare in linguaggio C standard (con la sola libc)...",
+      "tag": "Sviluppo",
+      "datore": "Università",
+      "internal": "",
+      "external": "https://github.com/davelista/turing-machine/blob/master/turing_machine.c",
+      "github": ""
+    },
+    {
+      "title": "In & Aut",
+      "description": "Progetto nato all'inizio del 2020, Interpreti e Autori (In & Aut) è un collettivo di artisti che collaborano, unendo diverse forme d'arte...",
+      "tag": "Arte",
+      "datore": "Gianluca Ballarin",
+      "internal": "",
+      "external": "https://gianlucaballarin.it",
+      "github": ""
+    }
+  ,
+    {
+      "title": "I Conturbanti",
+      "description": "“I Conturbanti” è un progetto nato dalla mente di cinque ragazzi uniti dalla passione per il teatro. Nato nel 2015...",
+      "tag": "Arte",
+      "datore": "Associazione culturale",
+      "internal": "",
+      "external": "",
+      "github": ""
+    }
+  ]

@@ -1,0 +1,130 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    height: 80px;
+    z-index: 3;
+    flex-direction: row;
+    justify-content: space-between;
+    /*permette di manterene la navbar sempre in cima anche se si scorre la pagina*/
+    top: 0;
+    position: sticky;
+    padding: 20px 10%;
+    transition: all 0.5s;
+}
+
+.navbarActive{
+    display: flex;
+    align-items: center;
+    background: white;
+    box-shadow: -21.213px 21.213px 30px 0 rgba(158, 158, 158, 0.3);
+    height: 80px;
+    z-index: 3;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 0;
+    position: sticky;
+    padding: 20px 10%;
+    transition: all 0.5s;
+}
+
+.logo{
+    cursor: pointer;
+    width: 20rem;
+}
+
+.logoMobile{
+    cursor: pointer;
+    width: 5rem;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 35%;
+    top: 0;
+}
+
+.item{
+    color: #222222;
+}
+
+.item:hover{
+    color: #f59e24;
+    cursor: pointer;
+}
+
+.item:active{
+    color: #f59e24;
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        background: transparent;
+        height: 40px;
+        z-index: 3;
+        flex-direction: row;
+        justify-content: space-between;
+        /*permette di manterene la navbar sempre in cima anche se si scorre la pagina*/
+        top: 0;
+        position: sticky;
+        padding: 20px 0;
+        transition: all 0.5s;
+    }
+
+    .logo{
+        cursor: pointer;
+        width: 20rem;
+        margin-left: 2rem;
+    }
+
+    .logoMobile{
+        cursor: pointer;
+        width: 5rem;
+        margin-left: 2rem;
+    }
+
+    .navbarActive{
+        display: flex;
+        align-items: center;
+        background: white;
+        box-shadow: -21.213px 21.213px 30px 0 rgba(158, 158, 158, 0.3);
+        height: 40px;
+        z-index: 3;
+        flex-direction: row;
+        justify-content: space-between;
+        top: 0;
+        position: sticky;
+        padding: 20px 0;
+        transition: all 0.5s;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background: rgba(0, 0, 0, 0.8);
+        width: 50%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right:0;
+        padding-top: 3.5rem;
+        color:white;
+        transition: transform 0.3s ease-in-out;
+    }
+    .item{
+        display: flex;
+        justify-content: flex-end;
+        color: white;
+        text-align: center;
+        font-weight: 300;
+        padding: 1rem
+
+    }
+}
