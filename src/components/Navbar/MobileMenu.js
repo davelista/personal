@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import styles from "./Navbar.module.css";
 import styled from 'styled-components';
 import Menu from "./Menu";
 
