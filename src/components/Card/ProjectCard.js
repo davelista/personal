@@ -28,13 +28,25 @@ const useStyles = makeStyles( theme => ({
     }},
     tag: {
         height:50,
+    },
+    languages: {
+        display: "flex",
+        flexDirection: "row",
+        alignItems: "center",
+        height:30,
+    },
+    language: {
+        padding: "0.5rem",
+        marginRight: "1rem",
+        borderRadius: "7px"
     }
 }));
 
 
 const ProjectCard = (props) => {
-    const {title, description, tag, datore, internal, external, github, img} = props;
+    const {title, description, tag, datore, internal, external, github, img, languages} = props;
     let url = require('../../img/projects/' + img);
+    const background = ["#AED9E0", "#D8E4FF"]
 
     const classes = useStyles();
     return (
@@ -62,6 +74,11 @@ const ProjectCard = (props) => {
                 <CardContent className={classes.tag}>
                     <h4>{datore}</h4>
                     <p>{tag}</p>
+                </CardContent>
+                <CardContent className={classes.languages}>
+                    {languages.map((x, i) => {
+                        return <div className={classes.language} style={{backgroundColor: background[i]}}>{x}</div>
+                    })}
                 </CardContent>
                 <CardActions>
                     {internal !== "" ? <a href={internal} >
