@@ -1,6 +1,7 @@
 import React from 'react';
 import {TimelineConnector, TimelineContent, TimelineDot, TimelineItem, TimelineSeparator} from "@material-ui/lab";
 import {makeStyles, Paper} from "@material-ui/core";
+import useMediaQuery, {Device} from "../../hooks/useMediaQuery";
 
 const useStyles = makeStyles( theme => ({
     dot: {
@@ -32,6 +33,24 @@ const useStyles = makeStyles( theme => ({
         width: '20rem',
         height: '7rem'
     },
+    [theme.breakpoints.down("md")]:{
+        item:{
+            '&::before':{
+                display:"none"
+            }
+        },
+        content: {
+            display: 'flex',
+            flexDirection: 'row',
+            justifyContent: 'flex-start',
+            padding: "1rem"
+        },
+        paper: {
+            width: '15rem',
+            height: '7rem',
+            padding: '1rem',
+        }
+    },
 
     a:{
         color: "#f59e24",
@@ -44,19 +63,20 @@ const useStyles = makeStyles( theme => ({
 const TimelineEven = (props) => {
     const classes = useStyles();
     const {title, period, place, link, last} = props;
+    const isMobile = useMediaQuery(Device.sm);
 
     return (
         <>
-            <TimelineItem>
+            <TimelineItem className={classes.item}>
                 <TimelineSeparator>
                     <TimelineDot className={classes.dot} />
                     {!last ? <TimelineConnector /> : <></>}
                 </TimelineSeparator>
                 <TimelineContent className={classes.content}>
                     <Paper elevation={3} className={classes.paper}>
-                        <h4 style={{textAlign: "center"}}>{title}</h4>
-                        <div><b>Periodo:</b> {period}</div>
-                        <a href={link} ><div className={classes.a}>{place}</div></a>
+                        {!isMobile ? <h4 style={{textAlign: "center"}}>{title}</h4> : <h6 style={{textAlign: "center"}}>{title}</h6>}
+                        <div style={{textAlign: "center"}}><b>Periodo:</b> {period}</div>
+                        <a href={link} ><div className={classes.a} style={{textAlign: "center"}}>{place}</div></a>
                     </Paper>
                 </TimelineContent>
             </TimelineItem>
