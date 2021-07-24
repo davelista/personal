@@ -9,7 +9,7 @@ const Details = (props) => {
         <>
             <Header title={"Dettagli"}/>
             <Knowledge/>
-            <TimelineSection titleSection={"Esperienze"} list={appData.experiencesList} />
+            <TimelineSection titleSection={"Esperienze"} list={appData.experiencesList} id='#experiences' />
             <TimelineSection titleSection={"Istruzione"} list={appData.educationList}/>
         </>
     );

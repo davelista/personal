@@ -3,6 +3,8 @@ import styles from "./Navbar.module.css";
 import {RiArrowDownSLine} from "react-icons/all";
 import {ClickAwayListener, Grow, MenuItem, MenuList, Paper, Popper} from "@material-ui/core";
 import useMediaQuery, {Device} from "../../hooks/useMediaQuery";
+import {Link} from "react-router-dom";
+import { HashLink as HashLink } from 'react-router-hash-link';
 
 function Menu(props) {
     const {openMobile} = props;
@@ -40,14 +42,19 @@ function Menu(props) {
         <>
 
             <div style={isMobile ? (openMobile ? {transform: "translateX(0)"} : { transform: "translateX(100%)"}) : null} className={styles.menu}>
-                <div className={styles.item}>HOME</div>
+                <Link to='/'>
+                    <div className={styles.item}>HOME</div>
+                </Link>
+                <HashLink to='#about'>
                 { !isMobile ? <>
+
                     <div ref={anchorRef}
                         aria-controls={open ? 'menu-list-grow' : undefined}
                         aria-haspopup="true"
                         onClick={handleToggle}
                         className={styles.item}>
                     CHI SONO <RiArrowDownSLine/></div>
+
                     <Popper open={open} anchorEl={anchorRef.current} role={undefined} transition disablePortal>
                     {({ TransitionProps, placement }) => (
                         <Grow
@@ -65,10 +72,15 @@ function Menu(props) {
                         </Grow>
                     )}
                 </Popper>
+
                 </> : <div className={styles.item}>
-                    CHI SONO </div>}
+                    CHI SONO </div>}</HashLink>
+                <HashLink to='#projects'>
                 <div className={styles.item}>PROGETTI</div>
+                </HashLink>
+                <HashLink to='/details#experiences'>
                 <div className={styles.item}>ESPERIENZE</div>
+                </HashLink>
             </div>
         </>
     );

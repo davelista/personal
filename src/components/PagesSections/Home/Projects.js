@@ -12,7 +12,7 @@ const Projects = (props) => {
     return (
         <>
             <section>
-                <div className={styles.container}>
+                <div className={styles.container} id='#projects'>
                     {isMobile ? <h3 className={styles.title}>
                         Progetti
                     </h3> : <h1 className={styles.title}>

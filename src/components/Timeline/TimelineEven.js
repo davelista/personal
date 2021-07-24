@@ -46,7 +46,7 @@ const useStyles = makeStyles( theme => ({
             padding: "1rem"
         },
         paper: {
-            width: '15rem',
+            width: '100%',
             height: '7rem',
             padding: '1rem',
         }

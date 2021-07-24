@@ -9,7 +9,7 @@ const About = (props) => {
     const isMobile = useMediaQuery(Device.sm);
     return (
         <>
-            <div className={styles.container}>
+            <div className={styles.container} id='#about'>
                 <img src={Me} className={styles.image} alt={"Peccato, non puoi vedere quanto sono bello"}/>
                 <div className={styles.personal}>
                     {isMobile ? <h4 className={styles.title}>
