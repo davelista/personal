@@ -1,8 +1,8 @@
 import React from "react";
 import {Home, Details} from "./pages";
 import {Footer, Navbar} from "./components";
-import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
-
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Redirect } from "react-router";
 import { AppContext, useAppContext } from "./context/AppContext";
 import ScrollToTop from "./pages/ScrollToTop";
 
