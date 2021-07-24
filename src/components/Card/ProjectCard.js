@@ -34,7 +34,7 @@ const useStyles = makeStyles( theme => ({
 
 const ProjectCard = (props) => {
     const {title, description, tag, datore, internal, external, github, img} = props;
-    let url = require('../../img/logo/' + img);
+    let url = require('../../img/projects/' + img);
 
     const classes = useStyles();
     return (

@@ -1,7 +1,47 @@
   [
     {
+      "title": "Uniadvisor",
+      "description": "UniAdvisor è una piattaforma indipendente per la valutazione di corsi e docenti universitari.",
+      "tag": "Sviluppo",
+      "datore": "Unihub",
+      "internal": "",
+      "external": "https://uniadvisor.it",
+      "github": "",
+      "img": "uniadvisor.svg"
+    },
+    {
+      "title": "Choirify",
+      "description": "Choirify is a flexible multi-mode melody line voicer-harmonizer which can be used for a variety of applications...",
+      "tag": "Sviluppo",
+      "datore": "Università",
+      "internal": "",
+      "external": "",
+      "github": "https://github.com/magiwanders/CMLS_HW3",
+      "img": "chorify.png"
+    },
+    {
+      "title": "JUCE Plugin",
+      "description": "This repository contains an implementation of several audio distortion effects in form of a cross-platform JUCE plugin.",
+      "tag": "Sviluppo",
+      "datore": "Università",
+      "internal": "",
+      "external": "",
+      "github": "https://github.com/magiwanders/CMLS_HW2",
+      "img": "juce.png"
+    },
+    {
+      "title": "Urban Sound Classification",
+      "description": "The implementation of the classifier was divided into different steps, clearly separeted one from the other.",
+      "tag": "Sviluppo",
+      "datore": "Università",
+      "internal": "",
+      "external": "",
+      "github": "https://github.com/magiwanders/CMLS_HW1",
+      "img": "urban_sound_classification.png"
+    },
+    {
       "title": "Tutoring - in fase di sviluppo",
-      "description": "Da ormai diversi anni svolgo un lavoro di tutoring a studenti di diverse età (in particolare frequentanti licei e università)",
+      "description": "Da ormai diversi anni svolgo un lavoro di tutoring a studenti di diverse età (in particolare frequentanti licei e università)...",
       "tag": "E-learning",
       "datore": "Personale",
       "internal": "",
