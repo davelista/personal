@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 15% 5% 15%;
+
+}
+
+.title{
+    align-self: center;
+    text-transform: uppercase;
+    padding-bottom: 3rem;
+}
+
+.subTitle{
+    padding: 1.5rem 0;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.progressBar{
+    width: 48%;
+}
+
+.hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 767px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+
+    }
+}

@@ -1,10 +1,10 @@
 import React from 'react';
-import {Header, About, Skills, Overview, Projects} from "../components";
+import {Banner, About, Skills, Overview, Projects} from "../components";
 
 function Home(props) {
     return (
         <>
-            <Header/>
+            <Banner/>
             <About/>
             <Skills/>
             <Overview/>
