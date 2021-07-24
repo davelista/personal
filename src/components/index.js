@@ -9,5 +9,9 @@ import Projects from "./PagesSections/Home/Projects";
 import Footer from "./Footer/Footer"
 import Header from "./Header/Header"
 import ProgressBar from "./ProgressBar/ProgressBar";
+import Knowledge from "./PagesSections/Details/Knowledge";
+import TimelineEven from "./Timeline/TimelineEven";
+import TimelineOdd from "./Timeline/TimelineOdd";
+import TimelineSection from "./Timeline/TimelineSection";
 
-export {Banner, Navbar, About, Button, Skills, Overview, ProjectCard, Projects, Footer, Header, ProgressBar}
+export {Banner, Navbar, About, Button, Skills, Overview, ProjectCard, Projects, Footer, Header, ProgressBar, Knowledge, TimelineEven, TimelineOdd, TimelineSection }

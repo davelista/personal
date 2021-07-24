@@ -7,6 +7,7 @@ import {
     VscRepoForked
 } from "react-icons/all";
 import {Button} from "../../index";
+import {Link} from "react-router-dom";
 
 const Skills = (props) => {
     const isMobile = useMediaQuery(Device.sm);
@@ -34,10 +35,11 @@ const Skills = (props) => {
                         <h5>Consulenza</h5>
                     </div>
                 </div>
-                <div className={styles.button}>
-                    <Button buttonStyle='btn--primary'>Scopri di più</Button>
-                </div>
-
+                <Link to='/details'>
+                    <div className={styles.button}>
+                        <Button buttonStyle='btn--primary'>Scopri di più</Button>
+                    </div>
+                </Link>
             </div>
         </>
     );

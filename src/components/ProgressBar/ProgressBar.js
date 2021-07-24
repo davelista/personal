@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styles from './ProgressBar.module.css';
 import {LinearProgress, makeStyles, withStyles} from "@material-ui/core";
 
@@ -32,7 +32,12 @@ const useStyles = makeStyles({
 });
 
 const ProgressBar = (props) => {
+    const [progressValue, setProgressValue] = useState(0);
     const {value, title} = props;
+
+    if(progressValue < value){
+        setTimeout(() => setProgressValue(progressValue+10), 100);
+    }
 
     const classes = useStyles();
 
@@ -40,7 +45,7 @@ const ProgressBar = (props) => {
         <div className={classes.root}>
             <div className={styles.container}>
                 <div className={styles.title}>{title}</div>
-                <BorderLinearProgress variant="determinate" value={value} />
+                <BorderLinearProgress variant="determinate" value={progressValue} />
             </div>
 
         </div>

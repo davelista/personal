@@ -1,0 +1,32 @@
+  [
+    {
+      "title": "Tutor",
+      "period": "2020 - In corso",
+      "place": "Il Cubo",
+      "external": "https://il-cubo.it/"
+    },
+    {
+      "title": "Collaboratore",
+      "period": "2020 - In corso",
+      "place": "s4s",
+      "external": "https://www.s4s.it/it/index.html"
+    },
+    {
+      "title": "Tirocinio",
+      "period": "2018 - 2020",
+      "place": "Cefriel",
+      "external": "https://cefriel.it/"
+    },
+    {
+      "title": "Tirocinio",
+      "period": "2016",
+      "place": "iPlus Service S.R.L",
+      "external": "https://www.iplusservice.it/"
+    },
+    {
+      "title": "Tirocinio",
+      "period": "2013",
+      "place": "Renato Barone’s Guitar",
+      "external": "https://www.renatobarone.com/"
+    }
+  ]

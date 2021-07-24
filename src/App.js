@@ -1,9 +1,10 @@
 import React from "react";
 import {Home, Details} from "./pages";
 import {Footer, Navbar} from "./components";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 
 import { AppContext, useAppContext } from "./context/AppContext";
+import ScrollToTop from "./pages/ScrollToTop";
 
 const App = () => {
 
@@ -13,6 +14,7 @@ const App = () => {
         <>
             <AppContext.Provider value={appData}>
                 <Router>
+                    <ScrollToTop>
                     <Navbar/>
                     <Switch>
                         <Route exact path="/">
@@ -21,8 +23,10 @@ const App = () => {
                         <Route exact path="/details">
                             <Details/>
                         </Route>
+                        <Route render={() => <Redirect to={{ pathname: "/" }} />} />
                     </Switch>
                     <Footer/>
+                    </ScrollToTop>
                 </Router>
             </AppContext.Provider>
         </>

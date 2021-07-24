@@ -25,11 +25,11 @@ const About = (props) => {
                         mi ha portato fin dal primo anno di università a collaborare con varie aziende, nonché a intraprendere
                         progetti personali come la compagnia teatrale senza scopo di lucro “I Conturbanti” e il servizio di Web Development "dyblab".
                     </div>
-                    <div className={styles.button}>
-                        <Button buttonStyle='btn--primary'><AiOutlineCloudDownload size={25}
-                                                                                    style={{marginRight: "0.5rem"}}/>{isMobile ? "CV" : "Curriculum vitae"}</Button>
-                    </div>
 
+                        <div className={styles.button}>
+                            <Button buttonStyle='btn--primary'><AiOutlineCloudDownload size={25}
+                                                                                        style={{marginRight: "0.5rem"}}/>{isMobile ? "CV" : "Curriculum vitae"}</Button>
+                        </div>
                 </div>
             </div>
         </>

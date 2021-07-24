@@ -1,14 +1,13 @@
 .container{
     display: flex;
     flex-direction: column;
-    padding: 5% 15% 5% 15%;
-
+    padding: 5% 15% 0 15%;
 }
 
 .title{
     align-self: center;
     text-transform: uppercase;
-    padding-bottom: 3rem;
+    padding-bottom: 7rem;
 }
 
 .subTitle{
@@ -26,12 +25,14 @@
     width: 48%;
 }
 
+
 .hr{
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
+
 
 @media (max-width: 767px){
     .container{
