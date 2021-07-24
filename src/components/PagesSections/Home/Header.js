@@ -34,7 +34,7 @@ function Header(props) {
                         />
                     </h1>
                     <h6 className={styles.mail}><a href="mailto:davide.lista@outlook.com">
-                        <VscDebugStackframeDot/> davide.lista@utlook.com <VscDebugStackframeDot/>
+                        <VscDebugStackframeDot/> davide.lista@outlook.com <VscDebugStackframeDot/>
                     </a></h6>
                     <div className={styles.social}>
 

@@ -11,37 +11,44 @@ import {
 } from "@material-ui/core";
 import {VscGithubInverted, VscGlobe} from "react-icons/all";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles( theme => ({
     root: {
         maxWidth: 400,
-        marginBottom: "3%",
+        marginBottom: "3rem",
     },
     media: {
-        height: 130,
+        height: 140,
     },
+        content: {
+            height: 80,
+        },
+    [theme.breakpoints.down("md")]: {
     content: {
-        height: 100,
-    },
+        height: 150,
+    }},
     tag: {
         height:50,
     }
-});
+}));
 
 
 const ProjectCard = (props) => {
-    const {title, description, tag, datore, internal, external, github} = props;
+    const {title, description, tag, datore, internal, external, github, img} = props;
+    let url = require('../../img/logo/' + img);
+
     const classes = useStyles();
     return (
         <>
             <Card className={classes.root}>
                 <CardActionArea>
+
                     <CardMedia
                         className={classes.media}
                         component="img"
-                        alt="Contemplative Reptile"
+                        alt={"questa era l'immagine" + img}
                         height="140"
-                        image="/static/images/cards/contemplative-reptile.jpg"
-                        title="Contemplative Reptile"
+                        image={url.default}
+                        title={title}
                     />
                     <CardContent className={classes.content}>
                         <Typography gutterBottom variant="h5" component="h2">

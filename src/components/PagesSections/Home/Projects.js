@@ -29,10 +29,10 @@ const Projects = (props) => {
 
                         {filter !== "Tutto" ? projectsList.filter(x => x.tag === filter).map((x) => {
                             return <ProjectCard title={x.title} description={x.description} tag={x.tag} datore={x.datore} internal={x.internal} external={x.external}
-                                                github={x.github} />
+                                                github={x.github} img={x.img}/>
                         }) : projectsList.map((x) => {
                             return <ProjectCard title={x.title} description={x.description} tag={x.tag} datore={x.datore} internal={x.internal} external={x.external}
-                                                github={x.github} />})}
+                                                github={x.github} img={x.img}/>})}
                     </div>
                 </div>
             </section>

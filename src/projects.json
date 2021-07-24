@@ -1,4 +1,3 @@
-
   [
     {
       "title": "Tutoring - in fase di sviluppo",
@@ -7,7 +6,19 @@
       "datore": "Personale",
       "internal": "",
       "external": "https://tutoring.davidelista.com",
-      "github": ""
+      "github": "",
+      "img": "tutoring.jpg"
+    },
+    {
+      "title": "Alibi Production",
+      "description": "Progetto nato all'inizio del 2020, Interpreti e Autori (In & Aut) è un collettivo di artisti che collaborano, unendo diverse forme d'arte...",
+      "tag": "Arte",
+      "datore": "Gianluca Ballarin",
+      "internal": "",
+      "external": "https://gianlucaballarin.it",
+      "github": "",
+      "img": "alibi.png"
+
     },
     {
       "title": "Learning Cefriel",
@@ -16,7 +27,8 @@
       "datore": "Cefriel",
       "internal": "",
       "external": "https://learning.cefriel.com",
-      "github": ""
+      "github": "",
+      "img": "cefriel.jpg"
     },
     {
       "title": "dyblab",
@@ -25,7 +37,8 @@
       "datore": "Personale",
       "internal": "",
       "external": "",
-      "github": ""
+      "github": "",
+      "img": "dyblab.svg"
     },
     {
       "title": "Predictive Maintenance",
@@ -34,7 +47,8 @@
       "datore": "Cefriel",
       "internal": "",
       "external": "https://cefriel.it/",
-      "github": ""
+      "github": "",
+      "img": "cefriel.jpg"
     },
     {
       "title": "Adrenalina",
@@ -43,7 +57,8 @@
       "datore": "Università",
       "internal": "",
       "external": "",
-      "github": "https://github.com/Malacrida/ing-sw-2019-lista-lograsso-malacrida"
+      "github": "https://github.com/Malacrida/ing-sw-2019-lista-lograsso-malacrida",
+      "img": "adrenalina.webp"
     },
     {
       "title": "Social",
@@ -52,7 +67,8 @@
       "datore": "Università",
       "internal": "",
       "external": "https://github.com/davelista/social.c/blob/master/api.c",
-      "github": ""
+      "github": "",
+      "img": "social.jpg"
     },
     {
       "title": "Manhattan distance",
@@ -61,7 +77,8 @@
       "datore": "Università",
       "internal": "",
       "external": "https://github.com/davelista/manhattan-distance/blob/master/manhattan_distance.vhdl",
-      "github": ""
+      "github": "",
+      "img": "vhdl.png"
     },
     {
       "title": "Turing Machine",
@@ -70,18 +87,9 @@
       "datore": "Università",
       "internal": "",
       "external": "https://github.com/davelista/turing-machine/blob/master/turing_machine.c",
-      "github": ""
+      "github": "",
+      "img": "c.png"
     },
-    {
-      "title": "In & Aut",
-      "description": "Progetto nato all'inizio del 2020, Interpreti e Autori (In & Aut) è un collettivo di artisti che collaborano, unendo diverse forme d'arte...",
-      "tag": "Arte",
-      "datore": "Gianluca Ballarin",
-      "internal": "",
-      "external": "https://gianlucaballarin.it",
-      "github": ""
-    }
-  ,
     {
       "title": "I Conturbanti",
       "description": "“I Conturbanti” è un progetto nato dalla mente di cinque ragazzi uniti dalla passione per il teatro. Nato nel 2015...",
@@ -89,6 +97,7 @@
       "datore": "Associazione culturale",
       "internal": "",
       "external": "",
-      "github": ""
+      "github": "",
+      "img": "conturbanti.jpg"
     }
   ]
