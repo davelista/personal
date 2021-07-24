@@ -13,9 +13,8 @@ const App = () => {
       return (
         <>
             <AppContext.Provider value={appData}>
-                <ScrollToTop>
                 <Router>
-
+                    <ScrollToTop>
                     <Navbar/>
                     <Switch>
                         <Route exact path="/">
@@ -27,9 +26,9 @@ const App = () => {
                         <Route render={() => <Redirect to={{ pathname: "/" }} />} />
                     </Switch>
                     <Footer/>
+                    </ScrollToTop>
                 </Router>
-                </ScrollToTop>
-                </AppContext.Provider>
+            </AppContext.Provider>
         </>
       );
 }
