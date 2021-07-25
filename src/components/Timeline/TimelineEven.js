@@ -34,6 +34,7 @@ const useStyles = makeStyles( theme => ({
         width: '20rem',
         height: '7rem'
     },
+
     [theme.breakpoints.down("md")]:{
         item:{
             '&::before':{

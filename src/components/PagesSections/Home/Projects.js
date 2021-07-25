@@ -6,6 +6,7 @@ import {AppContext} from "../../../context/AppContext";
 
 const Projects = (props) => {
     const appData = useContext(AppContext);
+    const isPc = useMediaQuery(Device.xxl);
     const isMobile = useMediaQuery(Device.sm);
     const [filter, setFilter] = useState("Tutto");
     const filtersList = ["Tutto", "E-learning", "Sviluppo", "Arte"];
@@ -35,8 +36,15 @@ const Projects = (props) => {
                         }) : appData.projectsList.map((x) => {
                             return <ProjectCard title={x.title} description={x.description} tag={x.tag} datore={x.datore} internal={x.internal} external={x.external}
                                                 github={x.github} img={x.img} languages={x.languages}/>})}
-                        { length % 3 === 0 ? null : <div style={{visibility: "hidden"}}><ProjectCard  title={appData.projectsList[0].title} description={appData.projectsList[0].description} tag={appData.projectsList[0].tag} datore={appData.projectsList[0].datore} internal={appData.projectsList[0].internal} external={appData.projectsList[0].external}
-                                                                                                      github={appData.projectsList[0].github} img={appData.projectsList[0].img} languages={appData.projectsList[0].languages}/> </div> }
+                        {/*Non ho capito, ma così funziona*/ !isPc ? ( length % 3 === 0 ? null : <div style={{visibility: "hidden"}}><ProjectCard  title={appData.projectsList[0].title}
+                                                                                                      description={appData.projectsList[0].description}
+                                                                                                      tag={appData.projectsList[0].tag}
+                                                                                                      datore={appData.projectsList[0].datore}
+                                                                                                      internal={appData.projectsList[0].internal}
+                                                                                                      external={appData.projectsList[0].external}
+                                                                                                      github={appData.projectsList[0].github}
+                                                                                                      img={appData.projectsList[0].img}
+                                                                                                      languages={appData.projectsList[0].languages}/> </div>) : null}
                     </div>
 
                 </div>

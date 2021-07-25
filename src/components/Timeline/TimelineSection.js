@@ -21,6 +21,7 @@ const useStyles = makeStyles( theme => ({
 const TimelineSection = (props) => {
     const {titleSection, list} = props;
     const isMobile = useMediaQuery(Device.sm);
+    const isTablet = useMediaQuery(Device.lg);
     const classes = useStyles();
 
     return (
@@ -31,7 +32,7 @@ const TimelineSection = (props) => {
                 </h3> : <h1 className={styles.title}>
                     {titleSection}
                 </h1>}
-                {!isMobile ? <Timeline className={classes.timeline} align="alternate">
+                {!isTablet ? <Timeline className={classes.timeline} align="alternate">
                     {list.filter((x, i) => i < list.length-1).map((x, i) => {
                         if(i % 2 === 0){
                             return <TimelineEven title={x.title} period={x.period} place={x.place} link={x.external} last={false}/>

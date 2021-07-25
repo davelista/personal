@@ -51,7 +51,13 @@
 
 @media (max-width: 1024px) {
     .section{
+        justify-content: space-evenly;
+    }
+    .filters{
+        display: flex;
+        flex-direction: row;
         justify-content: center;
+        margin-bottom: 3rem;
     }
 }
 

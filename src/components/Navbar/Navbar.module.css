@@ -61,6 +61,16 @@
     cursor: pointer;
 }
 
+@media (max-width: 1025px){
+    .navbar {
+        padding: 20px 5%;
+    }
+
+    .navbarActive{
+        padding: 20px 5%;
+    }
+}
+
 @media (max-width: 767px) {
     .navbar {
         display: flex;

@@ -39,10 +39,12 @@
 }
 
 @media (max-width: 1366px) {
+    .container{
+        padding: 7% 0;
+    }
     .image{
-        width: 20%;
-        border-radius: 0;
-        border: none;
+        width: 20rem;
+        height: 20rem;
     }
 }
 

@@ -22,6 +22,15 @@ const useStyles = makeStyles( theme => ({
         content: {
             height: 80,
         },
+    [theme.breakpoints.down("xl")]: {
+        content: {
+            height: 100,
+        },
+        root: {
+            maxWidth: 350,
+            marginBottom: "3rem",
+        },},
+
     [theme.breakpoints.down("md")]: {
     content: {
         height: 150,

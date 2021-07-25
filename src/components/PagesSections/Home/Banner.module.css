@@ -60,6 +60,20 @@
     background-color: #f59e24;
 }
 
+@media (max-width: 1025px){
+    .container {
+        background: linear-gradient(70deg, #0b4e6c 68%, #ffffff 68%);
+    }
+
+    .section{
+        padding: 0 0 80px 5% ;
+    }
+
+    .title{
+        font-size: 48px;
+    }
+}
+
 @media (max-width: 991px) {
     .container {
         background: linear-gradient(70deg, #0b4e6c 68%, #ffffff 68%);
