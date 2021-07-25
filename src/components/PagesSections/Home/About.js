@@ -4,12 +4,13 @@ import Me from "../../../img/cv-foto.png"
 import useMediaQuery, { Device } from '../../../hooks/useMediaQuery';
 import {AiOutlineCloudDownload} from "react-icons/all";
 import {Button} from "../../index";
+import CV from '../../../documents/davide-lista-cv.pdf'
 
 const About = (props) => {
     const isMobile = useMediaQuery(Device.sm);
     return (
         <>
-            <div className={styles.container} id='#about'>
+            <div className={styles.container} id='about'>
                 <img src={Me} className={styles.image} alt={"Peccato, non puoi vedere quanto sono bello"}/>
                 <div className={styles.personal}>
                     {isMobile ? <h4 className={styles.title}>
@@ -27,8 +28,9 @@ const About = (props) => {
                     </div>
 
                         <div className={styles.button}>
-                            <Button buttonStyle='btn--primary'><AiOutlineCloudDownload size={25}
-                                                                                        style={{marginRight: "0.5rem"}}/>{isMobile ? "CV" : "Curriculum vitae"}</Button>
+                            <a href={CV} ><Button buttonStyle='btn--primary'>
+                                <AiOutlineCloudDownload size={25} style={{marginRight: "0.5rem"}}/>
+                                {isMobile ? "CV" : "Curriculum vitae"}</Button></a>
                         </div>
                 </div>
             </div>

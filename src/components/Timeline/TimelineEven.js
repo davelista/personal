@@ -18,6 +18,7 @@ const useStyles = makeStyles( theme => ({
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'flex-end',
+        textAlign: 'center !important'
     },
 
     paper: {
@@ -76,7 +77,7 @@ const TimelineEven = (props) => {
                     <Paper elevation={3} className={classes.paper}>
                         {!isMobile ? <h4 style={{textAlign: "center"}}>{title}</h4> : <h6 style={{textAlign: "center"}}>{title}</h6>}
                         <div style={{textAlign: "center"}}><b>Periodo:</b> {period}</div>
-                        <a href={link} ><div className={classes.a} style={{textAlign: "center"}}>{place}</div></a>
+                        <a href={link} ><div className={classes.a} >{place}</div></a>
                     </Paper>
                 </TimelineContent>
             </TimelineItem>

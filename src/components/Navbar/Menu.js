@@ -4,7 +4,7 @@ import {RiArrowDownSLine} from "react-icons/all";
 import {ClickAwayListener, Grow, MenuItem, MenuList, Paper, Popper} from "@material-ui/core";
 import useMediaQuery, {Device} from "../../hooks/useMediaQuery";
 import {Link} from "react-router-dom";
-import { HashLink as HashLink } from 'react-router-hash-link';
+import { HashLink } from 'react-router-hash-link';
 
 function Menu(props) {
     const {openMobile} = props;
@@ -45,7 +45,7 @@ function Menu(props) {
                 <Link to='/'>
                     <div className={styles.item}>HOME</div>
                 </Link>
-                <HashLink to='#about'>
+
                 { !isMobile ? <>
 
                     <div ref={anchorRef}
@@ -64,21 +64,25 @@ function Menu(props) {
                             <Paper>
                                 <ClickAwayListener onClickAway={handleClose}>
                                     <MenuList autoFocusItem={open} id="menu-list-grow" onKeyDown={handleListKeyDown}>
-                                        <MenuItem onClick={handleClose}>Dettagli Personali</MenuItem>
-                                        <MenuItem onClick={handleClose}>Competenze</MenuItem>
+                                        <HashLink to='/#about' >
+                                        <MenuItem onClick={handleClose} style={{color:"#222222"}}>Dettagli Personali</MenuItem>
+                                        </HashLink>
+                                        <HashLink to='/details/#knowledge' >
+                                        <MenuItem onClick={handleClose} style={{color:"#222222"}}>Competenze</MenuItem>
+                                        </HashLink>
                                     </MenuList>
                                 </ClickAwayListener>
                             </Paper>
                         </Grow>
                     )}
-                </Popper>
+                    </Popper>
 
-                </> : <div className={styles.item}>
-                    CHI SONO </div>}</HashLink>
-                <HashLink to='#projects'>
+                </> : <HashLink to='/#about'><div className={styles.item}>
+                    CHI SONO </div> </HashLink>}
+                <HashLink to='/#projects'>
                 <div className={styles.item}>PROGETTI</div>
                 </HashLink>
-                <HashLink to='/details#experiences'>
+                <HashLink to='/details/#experiences'>
                 <div className={styles.item}>ESPERIENZE</div>
                 </HashLink>
             </div>

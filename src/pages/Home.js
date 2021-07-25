@@ -5,10 +5,10 @@ function Home(props) {
     return (
         <>
             <Banner/>
-            <About />
+            <About  />
             <Skills/>
             <Overview/>
-            <Projects />
+            <Projects id='projects' />
         </>
     );
 }

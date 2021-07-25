@@ -30,6 +30,7 @@ const useStyles = makeStyles( theme => ({
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'flex-start',
+        textAlign: 'center !important'
     },
 
     a:{

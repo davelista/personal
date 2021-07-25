@@ -25,7 +25,7 @@ const TimelineSection = (props) => {
 
     return (
         <>
-            <div className={styles.container}>
+            <div className={styles.container} id={titleSection === 'Esperienze' ? 'experiences' : 'education'}>
                 {isMobile ? <h3 className={styles.title}>
                     {titleSection}
                 </h3> : <h1 className={styles.title}>
