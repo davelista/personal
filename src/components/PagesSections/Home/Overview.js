@@ -11,19 +11,23 @@ const Overview = (props) => {
     const [projects, setProjects] = useState(0);
     const [experience, setExperience] = useState(0);
     const [coffee, setCoffee] = useState(0);
-
+    let date1 = new Date("01/01/2021");
+    let date2 = new Date();
+    let differenceInTime = date2.getTime() - date1.getTime();
+    let differenceInDate = Math.round(differenceInTime / (1000*3600*24));
     const changeNumbers = () => {
+
         if(isMobile){
             if(window.scrollY >= 3000){
                 setProjects(appData.projectsList.length);
-                setExperience(5);
-                setCoffee(70);
+                setExperience(appData.experiencesList.length);
+                setCoffee(differenceInDate*2);
             }
         } else {
             if(window.scrollY >= 1200){
                 setProjects(appData.projectsList.length);
-                setExperience(5);
-                setCoffee(70);
+                setExperience(appData.experiencesList.length);
+                setCoffee(differenceInDate*2);
             }
         }
 
@@ -70,7 +74,7 @@ const Overview = (props) => {
                         />
                     </h1>
                     <div className={styles.text}>
-                        Tazze di caffè
+                        Caffè dall'inizio dell'anno
                     </div>
                 </div>
             </section>
