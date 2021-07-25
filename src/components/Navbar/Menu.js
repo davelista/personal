@@ -51,7 +51,7 @@ function Menu(props) {
                     <div ref={anchorRef}
                         aria-controls={open ? 'menu-list-grow' : undefined}
                         aria-haspopup="true"
-                        onClick={handleToggle && onChangeOpenMobile(!openMobile)}
+                        onClick={() => onChangeOpenMobile(!openMobile) && handleToggle}
                         className={styles.item}
 
                     >
