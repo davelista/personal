@@ -42,7 +42,7 @@ const MobileMenu = (props) => {
                 <div/>
             </StyledBurger>
 
-            <Menu openMobile={open}/>
+            <Menu openMobile={open} onChangeOpenMobile={setOpen}/>
 
         </>
     );

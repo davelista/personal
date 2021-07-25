@@ -7,7 +7,7 @@ import {Link} from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 
 function Menu(props) {
-    const {openMobile} = props;
+    const {openMobile, onChangeOpenMobile} = props;
     const isMobile = useMediaQuery(Device.sm);
     const [open, setOpen] = React.useState(false);
 
@@ -43,7 +43,7 @@ function Menu(props) {
 
             <div style={isMobile ? (openMobile ? {transform: "translateX(0)"} : { transform: "translateX(100%)"}) : null} className={styles.menu}>
                 <Link to='/'>
-                    <div className={styles.item}>HOME</div>
+                    <div className={styles.item} onClick={() => onChangeOpenMobile(!openMobile)}>HOME</div>
                 </Link>
 
                 { !isMobile ? <>
@@ -51,8 +51,10 @@ function Menu(props) {
                     <div ref={anchorRef}
                         aria-controls={open ? 'menu-list-grow' : undefined}
                         aria-haspopup="true"
-                        onClick={handleToggle}
-                        className={styles.item}>
+                        onClick={handleToggle && onChangeOpenMobile(!openMobile)}
+                        className={styles.item}
+
+                    >
                     CHI SONO <RiArrowDownSLine/></div>
 
                     <Popper open={open} anchorEl={anchorRef.current} role={undefined} transition disablePortal>
@@ -77,13 +79,13 @@ function Menu(props) {
                     )}
                     </Popper>
 
-                </> : <HashLink to='/#about'><div className={styles.item}>
+                </> : <HashLink to='/#about'><div className={styles.item} onClick={() => onChangeOpenMobile(!openMobile)}>
                     CHI SONO </div> </HashLink>}
                 <HashLink to='/#projects'>
-                <div className={styles.item}>PROGETTI</div>
+                <div className={styles.item} onClick={() => onChangeOpenMobile(!openMobile)}>PROGETTI</div>
                 </HashLink>
                 <HashLink to='/details/#experiences'>
-                <div className={styles.item}>ESPERIENZE</div>
+                <div className={styles.item} onClick={() => onChangeOpenMobile(!openMobile)}>ESPERIENZE</div>
                 </HashLink>
             </div>
         </>
