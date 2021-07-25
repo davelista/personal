@@ -40,7 +40,7 @@ function Banner(props) {
 
                             <Fade left>
                                 <div className={styles.icon}>
-                                <FaLinkedinIn/>
+                                    <FaLinkedinIn />
                                 </div>
                             </Fade>
 
