@@ -20,7 +20,12 @@ const Footer = (props) => {
                 <div className={styles.items}>
                     <h4 className={styles.item}>Seguimi</h4>
                     <div className={styles.item}>Si prova ad essere social</div>
-                    <div className={styles.item}><FaFacebook size={20} style={{marginRight:"0.5rem"}}/> <FaLinkedinIn size={20} style={{marginRight:"0.5rem"}}/> <RiInstagramFill size={20} style={{marginRight:"0.5rem"}}/> <FaGithub size={20} style={{marginRight:"0.5rem"}}/> </div>
+                    <div className={styles.item}>
+                        <a href="https://www.facebook.com/davlista"><FaFacebook size={20} style={{marginRight:"0.5rem"}}/></a>
+                        <a href="https://it.linkedin.com/public-profile/in/davide-lista/"><FaLinkedinIn size={20} style={{marginRight:"0.5rem"}}/></a>
+                        <a href="https://www.instagram.com/davedz_/"><RiInstagramFill size={20} style={{marginRight:"0.5rem"}}/></a>
+                        <a href="https://github.com/davelista"><FaGithub size={20} style={{marginRight:"0.5rem"}}/></a>
+                        </div>
                 </div>
 
         </div>

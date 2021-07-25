@@ -40,14 +40,14 @@ function Banner(props) {
 
                             <Fade left>
                                 <div className={styles.icon}>
-                                    <FaLinkedinIn />
+                                    <a href="https://it.linkedin.com/public-profile/in/davide-lista/"><FaLinkedinIn /></a>
                                 </div>
                             </Fade>
 
 
                             <Fade left>
                                 <div className={styles.icon}>
-                                <FaGithub/>
+                                    <a href="https://github.com/davelista"><FaGithub/></a>
                                 </div>
                             </Fade>
 

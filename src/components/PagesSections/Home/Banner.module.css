@@ -42,9 +42,10 @@
     visibility: visible;
 }
 
-.icon{
-    height: 3.2rem;
-    width: 3.2rem;
+.icon a{
+    display: inline-block;
+    height: 3.1rem;
+    width: 3.1rem;
     background-color: #495057;
     color: #fff !important;
     border-radius: 100%;
@@ -52,6 +53,11 @@
     font-size: 1.5rem;
     line-height: 3.5rem;
     margin-right: 1rem;
+}
+
+.icon:hover a:hover{
+    cursor: pointer;
+    background-color: #f59e24;
 }
 
 @media (max-width: 991px) {
