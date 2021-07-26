@@ -38,12 +38,18 @@ function Menu(props) {
         prevOpen.current = open;
     }, [open]);
 
+    const closeMobileMenu = () => {
+        if(isMobile){
+            onChangeOpenMobile(!openMobile);
+        }
+    }
+
     return (
         <>
 
             <div style={isMobile ? (openMobile ? {transform: "translateX(0)"} : { transform: "translateX(100%)"}) : null} className={styles.menu}>
                 <Link to='/'>
-                    <div className={styles.item} onClick={() => onChangeOpenMobile(!openMobile)}>HOME</div>
+                    <div className={styles.item} onClick={closeMobileMenu}>HOME</div>
                 </Link>
 
                 { !isMobile ? <>
@@ -51,7 +57,7 @@ function Menu(props) {
                     <div ref={anchorRef}
                         aria-controls={open ? 'menu-list-grow' : undefined}
                         aria-haspopup="true"
-                        onClick={() => onChangeOpenMobile(!openMobile) && handleToggle}
+                        onClick={handleToggle}
                         className={styles.item}
 
                     >
@@ -79,13 +85,13 @@ function Menu(props) {
                     )}
                     </Popper>
 
-                </> : <HashLink to='/#about'><div className={styles.item} onClick={() => onChangeOpenMobile(!openMobile)}>
+                </> : <HashLink to='/#about'><div className={styles.item} onClick={closeMobileMenu}>
                     CHI SONO </div> </HashLink>}
                 <HashLink to='/#projects'>
-                <div className={styles.item} onClick={() => onChangeOpenMobile(!openMobile)}>PROGETTI</div>
+                <div className={styles.item} onClick={closeMobileMenu}>PROGETTI</div>
                 </HashLink>
                 <HashLink to='/details/#experiences'>
-                <div className={styles.item} onClick={() => onChangeOpenMobile(!openMobile)}>ESPERIENZE</div>
+                <div className={styles.item} onClick={closeMobileMenu}>ESPERIENZE</div>
                 </HashLink>
             </div>
         </>

@@ -42,13 +42,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 30%;
     top: 0;
 }
 
 .item{
     color: #222222;
+    padding: 0.5rem;
 }
 
 .item:hover{
@@ -61,13 +60,17 @@
     cursor: pointer;
 }
 
-@media (max-width: 1025px){
+@media (max-width: 1366px){
     .navbar {
         padding: 20px 5%;
     }
-
     .navbarActive{
         padding: 20px 5%;
+    }
+
+    .logo{
+        cursor: pointer;
+        width: 15rem;
     }
 }
 

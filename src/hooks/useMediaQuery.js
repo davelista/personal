@@ -22,10 +22,9 @@ export default function useMediaQuery(breakpoint) {
 const query = (breakpoint) => `(max-width: ${breakpoint}px)`;
 
 export const Device = {
-    all: 0,
-    sm: 640,
-    md: 768,
-    lg: 1024,
-    xl: 1280,
-    xxl: 1536
+    xs: 0,
+    sm: 600,
+    md: 960,
+    lg: 1280,
+    xl: 1920
 };

@@ -60,9 +60,9 @@
     background-color: #f59e24;
 }
 
-@media (max-width: 1025px){
+@media (max-width: 1366px){
     .container {
-        background: linear-gradient(70deg, #0b4e6c 68%, #ffffff 68%);
+        background: linear-gradient(60deg, #0b4e6c 70%, #ffffff 70%);
     }
 
     .section{
@@ -76,7 +76,7 @@
 
 @media (max-width: 991px) {
     .container {
-        background: linear-gradient(70deg, #0b4e6c 68%, #ffffff 68%);
+        background: linear-gradient(50deg, #0b4e6c 70%, #ffffff 70%);
     }
 }
 
