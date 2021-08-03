@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.e368ac7e.chunk.css",
-    "main.js": "/static/js/main.d61c46ea.chunk.js",
-    "main.js.map": "/static/js/main.d61c46ea.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.73c2aa16.js",
-    "runtime-main.js.map": "/static/js/runtime-main.73c2aa16.js.map",
-    "static/js/2.8a3a84ca.chunk.js": "/static/js/2.8a3a84ca.chunk.js",
-    "static/js/2.8a3a84ca.chunk.js.map": "/static/js/2.8a3a84ca.chunk.js.map",
-    "static/js/3.99eb3070.chunk.js": "/static/js/3.99eb3070.chunk.js",
-    "static/js/3.99eb3070.chunk.js.map": "/static/js/3.99eb3070.chunk.js.map",
+    "main.js": "/static/js/main.7a4fdefb.chunk.js",
+    "main.js.map": "/static/js/main.7a4fdefb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6aa735c7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6aa735c7.js.map",
+    "static/js/2.47ef310a.chunk.js": "/static/js/2.47ef310a.chunk.js",
+    "static/js/2.47ef310a.chunk.js.map": "/static/js/2.47ef310a.chunk.js.map",
+    "static/js/3.2ea22a5d.chunk.js": "/static/js/3.2ea22a5d.chunk.js",
+    "static/js/3.2ea22a5d.chunk.js.map": "/static/js/3.2ea22a5d.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.e368ac7e.chunk.css.map": "/static/css/main.e368ac7e.chunk.css.map",
-    "static/js/2.8a3a84ca.chunk.js.LICENSE.txt": "/static/js/2.8a3a84ca.chunk.js.LICENSE.txt",
+    "static/js/2.47ef310a.chunk.js.LICENSE.txt": "/static/js/2.47ef310a.chunk.js.LICENSE.txt",
     "static/media/adrenalina.webp": "/static/media/adrenalina.d5b11ae1.webp",
     "static/media/alibi.png": "/static/media/alibi.7f0d1cea.png",
     "static/media/c.png": "/static/media/c.bf0af88d.png",
@@ -19,7 +19,7 @@
     "static/media/chorify.png": "/static/media/chorify.62400833.png",
     "static/media/conturbanti.jpg": "/static/media/conturbanti.563bba58.jpg",
     "static/media/cv-foto.dc7fb980.png": "/static/media/cv-foto.dc7fb980.png",
-    "static/media/davide-lista-cv.31d6cfe0.pdf": "/static/media/davide-lista-cv.31d6cfe0.pdf",
+    "static/media/davide-lista-cv.8cfd4e9b.pdf": "/static/media/davide-lista-cv.8cfd4e9b.pdf",
     "static/media/dl-blu-small.dc264aa1.png": "/static/media/dl-blu-small.dc264aa1.png",
     "static/media/dl-blu.f5f3566f.png": "/static/media/dl-blu.f5f3566f.png",
     "static/media/dl-white-small.269eb2e3.png": "/static/media/dl-white-small.269eb2e3.png",
@@ -33,9 +33,9 @@
     "static/media/vhdl.png": "/static/media/vhdl.80b9b978.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.73c2aa16.js",
-    "static/js/2.8a3a84ca.chunk.js",
+    "static/js/runtime-main.6aa735c7.js",
+    "static/js/2.47ef310a.chunk.js",
     "static/css/main.e368ac7e.chunk.css",
-    "static/js/main.d61c46ea.chunk.js"
+    "static/js/main.7a4fdefb.chunk.js"
   ]
 }
