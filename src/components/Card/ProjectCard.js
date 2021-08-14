@@ -66,7 +66,7 @@ const ProjectCard = (props) => {
                     <CardMedia
                         className={classes.media}
                         component="img"
-                        alt={"questa era l'immagine" + img}
+                        alt={img}
                         height="140"
                         image={url.default}
                         title={title}

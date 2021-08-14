@@ -3,42 +3,49 @@
       "title": "Docente",
       "period": "Mag 2021",
       "place": "DigitAlly",
-      "external": "https://digit-ally.it/"
+      "external": "https://digit-ally.it/",
+      "img": "digitally.webp"
     },
     {
       "title": "Insegnante",
       "period": "Mar 2021 - Giu 2021",
       "place": "Istituto Tecnico Statale \"A. De Simoni - M. Quadrio\"",
-      "external": "https://www.itsdesimoni.com/"
+      "external": "https://www.itsdesimoni.com/",
+      "img": "desimoni.png"
     },
     {
       "title": "Tutor",
       "period": "Ott 2020 - In corso",
       "place": "Il Cubo",
-      "external": "https://il-cubo.it/"
+      "external": "https://il-cubo.it/",
+      "img": "ilcubo.jpeg"
     },
     {
       "title": "Collaboratore",
       "period": "Lug 2020 - In corso",
       "place": "s4s",
-      "external": "https://www.s4s.it/it/index.html"
+      "external": "https://www.s4s.it/it/index.html",
+      "img": "s4s.png"
     },
     {
       "title": "Tirocinio",
       "period": "Ago 2018 - Gen 2020",
       "place": "Cefriel",
-      "external": "https://cefriel.it/"
+      "external": "https://cefriel.it/",
+      "img": "cefriel.jpg"
     },
     {
       "title": "Tirocinio",
       "period": "Ago 2016",
       "place": "iPlus Service S.R.L",
-      "external": "https://www.iplusservice.it/"
+      "external": "https://www.iplusservice.it/",
+      "img": "iplus.png"
     },
     {
       "title": "Tirocinio",
       "period": "Lug 2013",
       "place": "Renato Barone’s Guitar",
-      "external": "https://www.renatobarone.com/"
+      "external": "https://www.renatobarone.com/",
+      "img": ""
     }
   ]

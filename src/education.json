@@ -3,24 +3,28 @@
       "title": "Music and Acoustic Engineering",
       "period": "2020 - In corso",
       "place": "Politecnico di Milano, Milano (MI)",
-      "external": "https://www.s4s.it/it/index.html"
+      "external": "https://www.s4s.it/it/index.html",
+      "img": "polimi.png"
     },
     {
       "title": "Ingegneria Informatica",
       "period": "2015 - 2020",
       "place": "Politecnico di Milano, Milano (MI)",
-      "external": "https://www.s4s.it/it/index.html"
+      "external": "https://www.s4s.it/it/index.html",
+      "img": "polimi.png"
     },
     {
       "title": "Liceo scientifico",
       "period": "2010 - 2015",
       "place": "Nervi-Ferrari, Morbegno (SO)",
-      "external": "https://www.s4s.it/it/index.html"
+      "external": "https://www.s4s.it/it/index.html",
+      "img": "nervi-ferrari.png"
     },
     {
       "title": "Conservatorio",
       "period": "2013 - 2014",
       "place": "G. Donizetti, Bergamo (BG)",
-      "external": "https://www.s4s.it/it/index.html"
+      "external": "https://www.s4s.it/it/index.html",
+      "img": "donizetti.jpg"
     }
   ]

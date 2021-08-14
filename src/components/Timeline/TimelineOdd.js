@@ -43,7 +43,11 @@ const useStyles = makeStyles( theme => ({
 
 const TimelineOdd = (props) => {
     const classes = useStyles();
-    const {title, period, place, link, last} = props;
+    const {title, period, place, link, last, img} = props;
+
+
+
+
     return (
         <>
             <TimelineItem>
@@ -52,7 +56,10 @@ const TimelineOdd = (props) => {
                     {!last ? <TimelineConnector /> : <></>}
                     </TimelineSeparator>
                 <TimelineContent className={classes.content}>
+
+
                     <Paper elevation={3} className={classes.paper}>
+                        {img !== "" ? <img src={require('../../img/logo/' + img).default} style={{height: "2rem", marginBottom: "1rem"}} alt={img}/> : <div/>}
                         <h4 style={{textAlign: "center"}}>{title}</h4>
                         <div><b>Periodo:</b> {period}</div>
                         <a href={link} ><div className={classes.a}>{place}</div></a>
