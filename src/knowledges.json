@@ -49,6 +49,14 @@
             "value": 70
           },
           {
+            "name": "Processing",
+            "value": 90
+          },
+          {
+            "name": "SuperCollider",
+            "value": 60
+          },
+          {
             "name": "VHDL",
             "value": 50
           }
@@ -68,11 +76,11 @@
           },
           {
             "name": "Moodle",
-            "value": 85
+            "value": 80
           },
           {
             "name": "Wordpress",
-            "value": 85
+            "value": 90
           }
         ]
     }
