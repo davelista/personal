@@ -47,7 +47,7 @@ const TimelineSection = (props) => {
                     }
                 </Timeline> :
                     <Timeline className={classes.timeline}>
-                    {list.map((x) => {
+                    {list.filter((x, i) => i < list.length-1).map((x, i) => {
                             return <TimelineEven title={x.title} period={x.period} place={x.place} link={x.external} last={false} img={x.img}/>
                     })}{
                             <TimelineEven title={list[list.length-1].title} period={list[list.length-1].period} place={list[list.length-1].place} link={list[list.length-1].external} last={true} img={list[list.length-1].img}/>

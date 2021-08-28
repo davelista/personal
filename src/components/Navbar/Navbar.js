@@ -12,7 +12,8 @@ import MobileMenu from "./MobileMenu";
 
 const Navbar = () => {
     const isPc = useMediaQuery(Device.xl);
-    const isMobile = useMediaQuery(Device.sm);
+    const isTablet = useMediaQuery(Device.md);
+    const isMobile = useMediaQuery(Device.sm)
     const [navbar, setNavbar] = useState(false);
 
     const changeBackground = () => {
@@ -30,7 +31,7 @@ const Navbar = () => {
                     {!isMobile ? <img src={navbar ? logoBlu : logoWhite} className={styles.logo} alt={"Peccato, non puoi vedere il mio bellissimo logo"}/> :
                         <img src={navbar ? logoBluSmall : logoWhiteSmall} className={styles.logoMobile} alt={"Peccato, non puoi vedere il mio bellissimo logo"}/>}
                 </Link>
-                { !isMobile ? <Menu /> : <MobileMenu/>}
+                { !isTablet ? <Menu /> : <MobileMenu/>}
 
             </nav>
         </>
