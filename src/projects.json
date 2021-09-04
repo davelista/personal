@@ -1,5 +1,16 @@
   [
     {
+      "title": "PolyDrum",
+      "description": "PolyDrum is a polymetric drum machine. It is characterized by an user-friendly GUI, to semplify the creative process.",
+      "tag": "Sviluppo",
+      "languages": ["React.js"],
+      "datore": "Università",
+      "internal": "",
+      "external": "https://polydrum.davidelista.com",
+      "github": "https://github.com/davelista/PolyDrum",
+      "img": "polydrum.png"
+    },
+    {
       "title": "Uniadvisor",
       "description": "UniAdvisor è una piattaforma indipendente per la valutazione di corsi e docenti universitari.",
       "tag": "Sviluppo",
