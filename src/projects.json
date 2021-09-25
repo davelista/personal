@@ -19,7 +19,7 @@
       "internal": "",
       "external": "https://polydrum.davidelista.com",
       "github": "https://github.com/davelista/PolyDrum",
-      "img": "polydrum.png"
+      "img": "polydrum.webp"
     },
     {
       "title": "Uniadvisor",
@@ -41,7 +41,7 @@
       "internal": "",
       "external": "",
       "github": "https://github.com/magiwanders/CMLS_HW3",
-      "img": "chorify.png"
+      "img": "chorify.webp"
     },
     {
       "title": "JUCE Plugin",
@@ -52,7 +52,7 @@
       "internal": "",
       "external": "",
       "github": "https://github.com/magiwanders/CMLS_HW2",
-      "img": "juce.png"
+      "img": "juce.webp"
     },
     {
       "title": "Urban Sound Classification",
@@ -63,7 +63,7 @@
       "internal": "",
       "external": "",
       "github": "https://github.com/magiwanders/CMLS_HW1",
-      "img": "urban_sound_classification.png"
+      "img": "urban_sound_classification.webp"
     },
     {
       "title": "Tutoring - in fase di sviluppo",
@@ -74,7 +74,7 @@
       "internal": "",
       "external": "https://tutoring.davidelista.com",
       "github": "",
-      "img": "tutoring.jpg"
+      "img": "tutoring.webp"
     },
     {
       "title": "Alibi Production",
@@ -85,7 +85,7 @@
       "internal": "",
       "external": "https://gianlucaballarin.it",
       "github": "",
-      "img": "alibi.png"
+      "img": "alibi.webp"
 
     },
     {
@@ -97,7 +97,7 @@
       "internal": "",
       "external": "https://learning.cefriel.com",
       "github": "",
-      "img": "cefriel.jpg"
+      "img": "cefriel.webp"
     },
     {
       "title": "dyblab",
@@ -119,7 +119,7 @@
       "internal": "",
       "external": "https://cefriel.it/",
       "github": "",
-      "img": "cefriel.jpg"
+      "img": "cefriel.webp"
     },
     {
       "title": "Adrenalina",
@@ -141,7 +141,7 @@
       "internal": "",
       "external": "https://github.com/davelista/social.c/blob/master/api.c",
       "github": "",
-      "img": "social.jpg"
+      "img": "social.webp"
     },
     {
       "title": "Manhattan distance",
@@ -152,7 +152,7 @@
       "internal": "",
       "external": "https://github.com/davelista/manhattan-distance/blob/master/manhattan_distance.vhdl",
       "github": "",
-      "img": "vhdl.png"
+      "img": "vhdl.webp"
     },
     {
       "title": "Turing Machine",
@@ -163,7 +163,7 @@
       "internal": "",
       "external": "https://github.com/davelista/turing-machine/blob/master/turing_machine.c",
       "github": "",
-      "img": "c.png"
+      "img": "c.webp"
     },
     {
       "title": "I Conturbanti",
@@ -174,6 +174,6 @@
       "internal": "",
       "external": "",
       "github": "",
-      "img": "conturbanti.jpg"
+      "img": "conturbanti.webp"
     }
   ]

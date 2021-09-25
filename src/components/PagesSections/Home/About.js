@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./About.module.css";
-import Me from "../../../img/cv-foto.png"
+import Me from "../../../img/cv-foto.webp"
 import useMediaQuery, { Device } from '../../../hooks/useMediaQuery';
 import {AiOutlineCloudDownload} from "react-icons/all";
 import {Button} from "../../index";
