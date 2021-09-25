@@ -1,5 +1,16 @@
   [
     {
+      "title": "Notte della Ricerca",
+      "description": "Contribuire allo sviluppo della ricerca vuol dire guardare al futuro e partecipare concretamente alla sua costruzione.",
+      "tag": "Sviluppo",
+      "languages": ["React.js"],
+      "datore": "Policlinico di Siena",
+      "internal": "",
+      "external": "https://nottedellaricerca.davidelista.com",
+      "github": "https://github.com/davelista/notte-della-ricerca",
+      "img": "notte-della-ricerca.webp"
+    },
+    {
       "title": "PolyDrum",
       "description": "PolyDrum is a polymetric drum machine. It is characterized by an user-friendly GUI, to semplify the creative process.",
       "tag": "Sviluppo",
