@@ -1,24 +1,10 @@
   [
     {
-      "title": "Collaboratore tecnico",
-      "period": "Set 2021",
-      "place": "Miss Mondo Italia",
-      "external": "https://www.missmondo.it/",
-      "img": "miss-mondo.webp"
-    },
-    {
       "title": "Docente",
-      "period": "Mag 2021",
+      "period": "Mag 2021 - In corso",
       "place": "DigitAlly",
       "external": "https://digit-ally.it/",
       "img": "digitally.webp"
-    },
-    {
-      "title": "Insegnante",
-      "period": "Mar 2021 - Giu 2021",
-      "place": "Istituto Tecnico Statale \"A. De Simoni - M. Quadrio\"",
-      "external": "https://www.itsdesimoni.com/",
-      "img": "desimoni.webp"
     },
     {
       "title": "Tutor",
@@ -26,6 +12,20 @@
       "place": "Il Cubo",
       "external": "https://il-cubo.it/",
       "img": "ilcubo.webp"
+    },
+    {
+      "title": "Collaboratore tecnico",
+      "period": "Set 2021",
+      "place": "Miss Mondo Italia",
+      "external": "https://www.missmondo.it/",
+      "img": "miss-mondo.webp"
+    },
+    {
+      "title": "Insegnante",
+      "period": "Mar 2021 - Giu 2021",
+      "place": "Istituto Tecnico Statale \"A. De Simoni - M. Quadrio\"",
+      "external": "https://www.itsdesimoni.com/",
+      "img": "desimoni.webp"
     },
     {
       "title": "Collaboratore",

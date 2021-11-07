@@ -11,7 +11,6 @@ import MobileMenu from "./MobileMenu";
 
 
 const Navbar = () => {
-    const isPc = useMediaQuery(Device.xl);
     const isTablet = useMediaQuery(Device.md);
     const isMobile = useMediaQuery(Device.sm)
     const [navbar, setNavbar] = useState(false);
