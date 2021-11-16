@@ -36,6 +36,7 @@ const App = () => {
                         </Route>
                         <Route render={() => <Redirect to={{ pathname: "/" }} />} />
                     </Switch>
+
                     <Footer/>
                     </ScrollToTop>
                 </Router>

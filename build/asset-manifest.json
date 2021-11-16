@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.a3970bc0.chunk.css",
-    "main.js": "/static/js/main.e074942f.chunk.js",
-    "main.js.map": "/static/js/main.e074942f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0a43de81.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0a43de81.js.map",
-    "static/js/2.686b5d31.chunk.js": "/static/js/2.686b5d31.chunk.js",
-    "static/js/2.686b5d31.chunk.js.map": "/static/js/2.686b5d31.chunk.js.map",
-    "static/js/3.89d6584b.chunk.js": "/static/js/3.89d6584b.chunk.js",
-    "static/js/3.89d6584b.chunk.js.map": "/static/js/3.89d6584b.chunk.js.map",
+    "main.css": "/static/css/main.13955e99.chunk.css",
+    "main.js": "/static/js/main.bac3079d.chunk.js",
+    "main.js.map": "/static/js/main.bac3079d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2c1552e6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2c1552e6.js.map",
+    "static/js/2.593c5863.chunk.js": "/static/js/2.593c5863.chunk.js",
+    "static/js/2.593c5863.chunk.js.map": "/static/js/2.593c5863.chunk.js.map",
+    "static/js/3.11e4759d.chunk.js": "/static/js/3.11e4759d.chunk.js",
+    "static/js/3.11e4759d.chunk.js.map": "/static/js/3.11e4759d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a3970bc0.chunk.css.map": "/static/css/main.a3970bc0.chunk.css.map",
-    "static/js/2.686b5d31.chunk.js.LICENSE.txt": "/static/js/2.686b5d31.chunk.js.LICENSE.txt",
+    "static/css/main.13955e99.chunk.css.map": "/static/css/main.13955e99.chunk.css.map",
+    "static/js/2.593c5863.chunk.js.LICENSE.txt": "/static/js/2.593c5863.chunk.js.LICENSE.txt",
     "static/media/adrenalina.webp": "/static/media/adrenalina.d5b11ae1.webp",
     "static/media/alibi.webp": "/static/media/alibi.fd7a6cf8.webp",
     "static/media/c.webp": "/static/media/c.2cd29b00.webp",
@@ -99,12 +99,12 @@
     "static/media/uniadvisor.svg": "/static/media/uniadvisor.f3d89571.svg",
     "static/media/urban_sound_classification.webp": "/static/media/urban_sound_classification.0cb0ae02.webp",
     "static/media/vhdl.webp": "/static/media/vhdl.15ae7b4b.webp",
-    "static/media/wip.md": "/static/media/wip.a69a587c.md"
+    "static/media/wip.md": "/static/media/wip.0551b8d9.md"
   },
   "entrypoints": [
-    "static/js/runtime-main.0a43de81.js",
-    "static/js/2.686b5d31.chunk.js",
-    "static/css/main.a3970bc0.chunk.css",
-    "static/js/main.e074942f.chunk.js"
+    "static/js/runtime-main.2c1552e6.js",
+    "static/js/2.593c5863.chunk.js",
+    "static/css/main.13955e99.chunk.css",
+    "static/js/main.bac3079d.chunk.js"
   ]
 }

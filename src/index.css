@@ -69,8 +69,18 @@ blockquote a{
   color: #f59e24 !important;
 }
 
-@media (max-width: 1025px){
-  section{
+@media (max-width: 1025px) {
+  section {
     padding: 5% 0;
+  }
+}
+
+@media (max-width: 767px){
+  blockquote{
+    margin-left: 0;
+    padding: 1rem 1rem 1rem 2.5rem;
+    background: #fff;
+    border-left: 2px solid #8490ff;
+    color: #f59e24;
   }
 }
