@@ -76,7 +76,7 @@ const TimelineEven = (props) => {
                 </TimelineSeparator>
                 <TimelineContent className={classes.content}>
                     <Paper elevation={3} className={classes.paper}>
-                        {img !== "" ? <img src={require('../../img/logo/' + img).default} style={{height: "2rem", marginBottom: "1rem"}} alt={img}/> : <div/>}
+                        {img !== "" ? <img src={require('../../data/img/logo/' + img).default} style={{height: "2rem", marginBottom: "1rem"}} alt={img}/> : <div/>}
                         {!isMobile ? <h4 style={{textAlign: "center"}}>{title}</h4> : <h6 style={{textAlign: "center"}}>{title}</h6>}
                         <div style={{textAlign: "center"}}><b>Periodo:</b> {period}</div>
                         <a href={link} ><div className={classes.a} >{place}</div></a>

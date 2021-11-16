@@ -1,10 +1,10 @@
 import styles from "./Navbar.module.css";
 import useMediaQuery, { Device } from '../../hooks/useMediaQuery';
 import {Link} from 'react-router-dom';
-import logoBlu from "../../img/logo/davidelista/dl-blu.png";
-import logoBluSmall from "../../img/logo/davidelista/dl-blu-small.png";
-import logoWhite from "../../img/logo/davidelista/dl-white.png";
-import logoWhiteSmall from "../../img/logo/davidelista/dl-white-small.png";
+import logoBlu from "../../data/img/logo/davidelista/dl-blu.png";
+import logoBluSmall from "../../data/img/logo/davidelista/dl-blu-small.png";
+import logoWhite from "../../data/img/logo/davidelista/dl-white.png";
+import logoWhiteSmall from "../../data/img/logo/davidelista/dl-white-small.png";
 import React, {useState} from 'react';
 import Menu from "./Menu";
 import MobileMenu from "./MobileMenu";

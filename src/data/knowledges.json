@@ -1,0 +1,87 @@
+  [ {
+    "name": "Web",
+      "Web":
+        [
+          {
+            "name": "React.js",
+            "value": 90
+          },
+          {
+            "name": "PHP",
+            "value": 75
+          },
+          {
+            "name": "Javascript",
+            "value": 90
+          },
+          {
+            "name": "HTML",
+            "value": 100
+          },
+          {
+            "name": "CSS",
+            "value": 100
+          },
+          {
+            "name": "SQL",
+            "value": 100
+          }
+        ]
+    },
+    {
+      "name": "Programmazione",
+      "Programmazione":
+        [
+          {
+            "name": "Linguaggio C",
+            "value": 90
+          },
+          {
+            "name": "Java SE",
+            "value": 90
+          },
+          {
+            "name": "Python",
+            "value": 80
+          },
+          {
+            "name": "MATLAB",
+            "value": 70
+          },
+          {
+            "name": "Processing",
+            "value": 90
+          },
+          {
+            "name": "SuperCollider",
+            "value": 60
+          },
+          {
+            "name": "VHDL",
+            "value": 50
+          }
+        ]
+    },
+    {
+      "name": "Software",
+      "Software":
+        [
+          {
+            "name": "Power BI",
+            "value": 85
+          },
+          {
+            "name": "Power Apps",
+            "value": 50
+          },
+          {
+            "name": "Moodle",
+            "value": 80
+          },
+          {
+            "name": "Wordpress",
+            "value": 90
+          }
+        ]
+    }
+  ]

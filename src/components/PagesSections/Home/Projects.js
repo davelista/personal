@@ -32,19 +32,23 @@ const Projects = (props) => {
 
                         {filter !== "Tutto" ? appData.projectsList.filter(x => x.tag === filter).map((x) => {
                             return <ProjectCard title={x.title} description={x.description} tag={x.tag} datore={x.datore} internal={x.internal} external={x.external}
-                                                github={x.github} img={x.img} languages={x.languages}/>
+                                                github={x.github} img={x.img} languages={x.languages} projectName={x.link} onClick={() => {appData.project.setData(x)}}/>
                         }) : appData.projectsList.map((x) => {
                             return <ProjectCard title={x.title} description={x.description} tag={x.tag} datore={x.datore} internal={x.internal} external={x.external}
-                                                github={x.github} img={x.img} languages={x.languages}/>})}
-                        {/*Non ho capito, ma così funziona*/ !isPc ? ( length % 3 === 0 ? null : <div style={{visibility: "hidden"}}><ProjectCard  title={appData.projectsList[0].title}
-                                                                                                      description={appData.projectsList[0].description}
-                                                                                                      tag={appData.projectsList[0].tag}
-                                                                                                      datore={appData.projectsList[0].datore}
-                                                                                                      internal={appData.projectsList[0].internal}
-                                                                                                      external={appData.projectsList[0].external}
-                                                                                                      github={appData.projectsList[0].github}
-                                                                                                      img={appData.projectsList[0].img}
-                                                                                                      languages={appData.projectsList[0].languages}/> </div>) : null}
+                                                github={x.github} img={x.img} languages={x.languages} projectName={x.link} onClick={() => {appData.project.setData(x)}}/> })}
+                        {/*Non ho capito, ma così funziona*/ !isPc ? ( length % 3 === 0 ? null : <div style={{visibility: "hidden"}}>
+                            <ProjectCard  title={appData.projectsList[0].title}
+                                          description={appData.projectsList[0].description}
+                                          tag={appData.projectsList[0].tag}
+                                          datore={appData.projectsList[0].datore}
+                                          internal={appData.projectsList[0].internal}
+                                          external={appData.projectsList[0].external}
+                                          github={appData.projectsList[0].github}
+                                          img={appData.projectsList[0].img}
+                                          languages={appData.projectsList[0].languages}
+                                          projectName={appData.projectsList[0].link}
+                                onClick={() => {appData.project.setData(appData.projectsList[0])}}
+                            /> </div>) : null}
                     </div>
 
                 </div>

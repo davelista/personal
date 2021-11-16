@@ -10,6 +10,7 @@ import {
     Typography
 } from "@material-ui/core";
 import {VscGithubInverted, VscGlobe} from "react-icons/all";
+import {Link} from "react-router-dom";
 
 const useStyles = makeStyles( theme => ({
     root: {
@@ -53,33 +54,35 @@ const useStyles = makeStyles( theme => ({
 
 
 const ProjectCard = (props) => {
-    const {title, description, tag, datore, internal, external, github, img, languages} = props;
-    let url = require('../../img/projects/' + img);
+    const {title, description, tag, datore, internal, external, github, img, languages, projectName, onClick} = props;
+    let url = require('../../data/img/projects/' + img);
     const background = ["#AED9E0", "#D8E4FF"]
 
     const classes = useStyles();
     return (
         <>
             <Card className={classes.root} >
-                <CardActionArea>
+                <Link to={`/project/${projectName}`} onClick={onClick}>
+                    <CardActionArea>
 
-                    <CardMedia
-                        className={classes.media}
-                        component="img"
-                        alt={img}
-                        height="140"
-                        image={url.default}
-                        title={title}
-                    />
-                    <CardContent className={classes.content}>
-                        <Typography gutterBottom variant="h5" component="h2">
-                            {title}
-                        </Typography>
-                        <Typography variant="body2" color="textSecondary" component="p">
-                            {description}
-                        </Typography>
-                    </CardContent>
-                </CardActionArea>
+                        <CardMedia
+                            className={classes.media}
+                            component="img"
+                            alt={img}
+                            height="140"
+                            image={url.default}
+                            title={title}
+                        />
+                        <CardContent className={classes.content}>
+                            <Typography gutterBottom variant="h5" component="h2">
+                                {title}
+                            </Typography>
+                            <Typography variant="body2" color="textSecondary" component="p">
+                                {description}
+                            </Typography>
+                        </CardContent>
+                    </CardActionArea>
+                </Link>
                 <CardContent className={classes.tag}>
                     <h4>{datore}</h4>
                     <p>{tag}</p>

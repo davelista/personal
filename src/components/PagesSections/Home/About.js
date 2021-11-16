@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from "./About.module.css";
-import Me from "../../../img/cv-foto.webp"
+import Me from "../../../data/img/cv-foto.webp"
 import useMediaQuery, { Device } from '../../../hooks/useMediaQuery';
 import {AiOutlineCloudDownload} from "react-icons/all";
 import {Button} from "../../index";
-import CV from '../../../documents/davide-lista-cv.pdf'
+import CV from '../../../data/documents/davide-lista-cv.pdf'
 
 const About = (props) => {
     const isMobile = useMediaQuery(Device.sm);
