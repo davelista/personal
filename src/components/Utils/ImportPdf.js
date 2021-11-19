@@ -7,7 +7,7 @@ const ImportPdf = (props) => {
 
     return (
         <>
-            <a href={fileToBeLoaded} target="_blank">{text}</a>
+            <a href={fileToBeLoaded} target="_blank" rel="noreferrer">{text}</a>
         </>
     );
 }

@@ -58,6 +58,7 @@
 .icon:hover a:hover{
     cursor: pointer;
     background-color: #f59e24;
+    color: white !important;
 }
 
 @media (max-width: 1366px){

@@ -2,14 +2,12 @@ import React from "react";
 import {
     autoSizeImage,
     autoSizeMultipleImage,
-    darkMediaCarousel,
     horizontalOverflow,
     imageMargin,
     mediaCarousel,
     multipleImage,
 } from "./MediaCarousel.module.css";
 import { IS_WEBP_SUPPORTED } from "../../utils/Constants.utils";
-import useMediaQuery, {Device} from "../../hooks/useMediaQuery";
 
 const getImageLinkWithExtension = (imageLink) => {
     if (IS_WEBP_SUPPORTED && imageLink.endsWith(".png")) {
@@ -18,8 +16,7 @@ const getImageLinkWithExtension = (imageLink) => {
     return imageLink;
 };
 
-const MediaCarousel = ({ folder, images, isLeft }) => {
-    const isPc = useMediaQuery(Device.xl);
+const MediaCarousel = ({ folder, images }) => {
     const imageFileNames = images.split(",");
     const imagesToBeLoaded = [];
 

@@ -1,6 +1,5 @@
 import React, {useContext, useEffect, useState} from 'react';
 import {AppContext} from "../context/AppContext";
-import Markdown from 'markdown-to-jsx';
 import {useParams} from "react-router";
 import {Header} from "../components";
 import ProjectPageMarkdown from "../components/PagesSections/Project/ProjectPageMarkdown";
@@ -50,10 +49,7 @@ const Project = (props) => {
     return (
         <>
             {header}
-            <div style={{marginBottom: "3rem"}}>
-                <ProjectPageMarkdown page={post}/>
-            </div>
-
+            <ProjectPageMarkdown page={post}/>
         </>
     );
 }

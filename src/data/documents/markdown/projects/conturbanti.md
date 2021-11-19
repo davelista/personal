@@ -25,8 +25,9 @@ con lo scopo di sensibilizzare i più giovani all’importanza di far parte di u
 >
 > <ImportPdf folder="copioni" fileName="tasse-medioevo.pdf" text="Medioevo"/>
 
-<div style="margin-top: 4rem"> </div>
+<div style="
+    color: #f59e24;margin-top: 4rem"> </div>
 
 ### Galleria
 
-<Gallery folder="img-conturbanti" fileName="meneinfisco" folderThumb="img-conturbanti/img-conturbanti-small" number="28" extension="jpg"/>
+<Gallery folder="img-conturbanti" fileName="meneinfisco" folderThumb="img-conturbanti/img-conturbanti-small" number="28" extension="jpg" title="Me ne inFisco? No, grazie!"/>
