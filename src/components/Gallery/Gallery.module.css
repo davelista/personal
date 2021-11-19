@@ -94,6 +94,8 @@
     display: flex;
     flex-flow: row wrap;
     width: 100%;
+    justify-content: center;
+    margin: 5% 0;
 }
 
 .thumbImages{
@@ -123,5 +125,10 @@
     .rightArrow{
         right: 0;
     }
+
+    .thumb{
+        margin: 10% 0;
+    }
+
 
 }
