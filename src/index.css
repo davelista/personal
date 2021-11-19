@@ -1,5 +1,13 @@
+:root{
+  --firstColor: #0b4e6c;
+  --secondColor: #f59e24;
+  --thirdColor: #8490ff;
+  --fourthColor: #222222;
+  --fifthColor: #777777;
+}
+
 body {
-  color: #777777;
+  color: var(--fifthColor);
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -17,7 +25,7 @@ section{
 h1, h2, h3,
 h4, h5, h6 {
   font-family: "Maven Pro", sans-serif;
-  color: #222222;
+  color: var(--fourthColor);
   line-height: 1.2em !important;
   margin-bottom: 0;
   margin-top: 0;
@@ -30,7 +38,7 @@ h4, h5, h6 {
   margin-top: 0;
   font-family: "Maven Pro", sans-serif;
   font-weight: 600;
-  color: #222222;
+  color: var(--fourthColor);
 }
 
 h1, .h1 {
@@ -55,18 +63,34 @@ h5, .h5 {
 
 h6, .h6 {
   font-size: 14px;
-  color: #222222;
+  color: var(--fourthColor);
 }
 
 blockquote{
   padding: 1rem 2rem 1rem 2.5rem;
   background: #fff;
-  border-left: 2px solid #8490ff;
-  color: #f59e24;
+  border-left: 2px solid var(--thirdColor);
+  color: var(--secondColor);
+  margin: 5% 0;
 }
 
 blockquote a{
-  color: #f59e24 !important;
+  color: var(--secondColor) !important;
+}
+
+.explainProject{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5% 0;
+}
+
+
+.explainProject p{
+  width: 100%;
+  padding: 0 0 0 5%;
+  text-align: justify;
 }
 
 @media (max-width: 1025px) {
@@ -77,10 +101,19 @@ blockquote a{
 
 @media (max-width: 767px){
   blockquote{
-    margin-left: 0;
     padding: 1rem 1rem 1rem 2.5rem;
     background: #fff;
-    border-left: 2px solid #8490ff;
-    color: #f59e24;
+    border-left: 2px solid var(--thirdColor);
+    color: var(--secondColor);
+    margin: 10% 0;
+  }
+
+  .explainProject{
+    flex-flow: column nowrap;
+    margin: 10% 0;
+  }
+
+  .explainProject p{
+    padding: 0;
   }
 }

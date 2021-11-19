@@ -1,5 +1,5 @@
 .container{
-    background: linear-gradient(69deg, #0b4e6c 63%, #ffffff 63%);
+    background: linear-gradient(69deg, var(--firstColor) 63%, white 63%);
 }
 .section{
     margin-top: -20vh;
@@ -19,13 +19,13 @@
 
 @media (max-width: 991px) {
     .container {
-        background: linear-gradient(70deg, #0b4e6c 68%, #ffffff 68%);
+        background: linear-gradient(70deg, var(--firstColor) 68%, white 68%);
     }
 }
 
 @media (max-width: 767px) {
     .container {
-        background: linear-gradient(70deg, #0b4e6c 80%, #ffffff 80%);
+        background: linear-gradient(70deg, var(--firstColor) 80%, white 80%);
     }
 
     .title {

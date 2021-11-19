@@ -9,6 +9,7 @@ import {
     multipleImage,
 } from "./MediaCarousel.module.css";
 import { IS_WEBP_SUPPORTED } from "../../utils/Constants.utils";
+import useMediaQuery, {Device} from "../../hooks/useMediaQuery";
 
 const getImageLinkWithExtension = (imageLink) => {
     if (IS_WEBP_SUPPORTED && imageLink.endsWith(".png")) {
@@ -17,7 +18,8 @@ const getImageLinkWithExtension = (imageLink) => {
     return imageLink;
 };
 
-const MediaCarousel = ({ folder, images, isDark }) => {
+const MediaCarousel = ({ folder, images, isLeft }) => {
+    const isPc = useMediaQuery(Device.xl);
     const imageFileNames = images.split(",");
     const imagesToBeLoaded = [];
 
@@ -32,9 +34,9 @@ const MediaCarousel = ({ folder, images, isDark }) => {
 
     return (
         <>
+
             <div
-                align="center"
-                className={`${horizontalOverflow} ${isDark ? darkMediaCarousel : null} ${mediaCarousel} ${
+                className={`${horizontalOverflow}  ${mediaCarousel} ${
                     imagesToBeLoaded.length > 1 && multipleImage
                 }`}
             >

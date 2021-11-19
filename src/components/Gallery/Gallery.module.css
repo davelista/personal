@@ -99,7 +99,7 @@
 .thumbImages{
     padding: 0.8rem;
     object-fit: cover;
-    border-radius: 0.5rem;
+    border-radius: 1.2rem;
     filter: grayscale(100%);
     transition: 0.8s;
 }

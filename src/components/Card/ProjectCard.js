@@ -34,7 +34,7 @@ const useStyles = makeStyles( theme => ({
 
     [theme.breakpoints.down("md")]: {
     content: {
-        height: 150,
+        height: 110,
     }},
     tag: {
         height:50,

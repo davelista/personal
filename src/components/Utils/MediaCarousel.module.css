@@ -1,5 +1,3 @@
-
-
 .horizontalOverflow{
   white-space: nowrap;
   overflow-x: auto;
@@ -13,12 +11,10 @@
   max-width: 100%;
 }
 
-
 .autoSizeMultipleImage{
   max-height: 440px;
   max-width: 90%;
 }
-
 
 .mediaCarousel{
   color: #0b4e6c;

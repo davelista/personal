@@ -1,21 +1,21 @@
 
 ### Il progetto
-<br>
-<div style="margin-bottom: 4rem; text-align: justify">
-<div style="width: 300px; float: left; margin-right: 3rem">
 
-<MediaCarousel folder="projects" images="conturbanti.webp"/>
-</div>
+<div class="explainProject">
+<MediaCarousel folder="projects" images="conturbanti.webp" isLeft="true"/>
+
 “I Conturbanti” è un progetto nato dalla mente di cinque ragazzi uniti
-dalla passione per il teatro. <br>
+dalla passione per il teatro.
 Nata nel 2015, la compagnia teatrale ha collaborato per
 tre anni con l'Agenzia delle Entrate di Morbegno al progetto "Fisco Scuola"
 mettendo anche in scena, l'ultimo anno, uno spettacolo autoprodotto,
 con lo scopo di sensibilizzare i più giovani all’importanza di far parte di una comunità.
 </div>
 
+
+
 ### I copioni
-<br>
+
 
 > <ImportPdf folder="copioni" fileName="me-ne-infisco.pdf" text="Me ne inFisco? No, grazie!"/>
 >
