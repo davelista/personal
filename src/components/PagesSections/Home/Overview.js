@@ -11,7 +11,7 @@ const Overview = (props) => {
     const [projects, setProjects] = useState(0);
     const [experience, setExperience] = useState(0);
     const [coffee, setCoffee] = useState(0);
-    let date1 = new Date("01/01/2021");
+    let date1 = new Date(new Date().getFullYear(), 0, 1);
     let date2 = new Date();
     let differenceInTime = date2.getTime() - date1.getTime();
     let differenceInDate = Math.round(differenceInTime / (1000*3600*24));
