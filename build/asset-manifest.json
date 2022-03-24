@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.dc6752e0.chunk.css",
-    "main.js": "/static/js/main.b6d1f393.chunk.js",
-    "main.js.map": "/static/js/main.b6d1f393.chunk.js.map",
+    "main.js": "/static/js/main.98478a19.chunk.js",
+    "main.js.map": "/static/js/main.98478a19.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2c1552e6.js",
     "runtime-main.js.map": "/static/js/runtime-main.2c1552e6.js.map",
     "static/js/2.984a932d.chunk.js": "/static/js/2.984a932d.chunk.js",
@@ -20,7 +20,7 @@
     "static/media/conturbanti.webp": "/static/media/conturbanti.64360248.webp",
     "static/media/conturbanti.md": "/static/media/conturbanti.f69fde86.md",
     "static/media/cv-foto.webp": "/static/media/cv-foto.af9c04be.webp",
-    "static/media/davide-lista-cv.pdf": "/static/media/davide-lista-cv.40a1e008.pdf",
+    "static/media/davide-lista-cv.pdf": "/static/media/davide-lista-cv.81071441.pdf",
     "static/media/desimoni.webp": "/static/media/desimoni.22f7cf57.webp",
     "static/media/digitally.webp": "/static/media/digitally.0acd53a9.webp",
     "static/media/dl-blu-small.png": "/static/media/dl-blu-small.dc264aa1.png",
@@ -105,6 +105,6 @@
     "static/js/runtime-main.2c1552e6.js",
     "static/js/2.984a932d.chunk.js",
     "static/css/main.dc6752e0.chunk.css",
-    "static/js/main.b6d1f393.chunk.js"
+    "static/js/main.98478a19.chunk.js"
   ]
 }
