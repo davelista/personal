@@ -28,7 +28,7 @@ const About = (props) => {
                     </div>
 
                         <div className={styles.button}>
-                            <a href={CV} ><Button buttonStyle='btn--primary'>
+                            <a href={CV} target={"_blank"} ><Button buttonStyle='btn--primary'>
                                 <AiOutlineCloudDownload size={25} style={{marginRight: "0.5rem"}}/>
                                 {isMobile ? "CV" : "Curriculum vitae"}</Button></a>
                         </div>
