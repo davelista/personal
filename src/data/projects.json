@@ -1,5 +1,17 @@
   [
-
+    {
+      "title": "Tech it easy",
+      "description": "Tech it easy è il mio \"diario digitale\" dove pubblicherò le cose più disparate in ambito tecnologico e informatico.",
+      "tag": "Sviluppo",
+      "languages": ["Next.js"],
+      "datore": "Personale",
+      "internal": "",
+      "external": "http://blog.davidelista.com",
+      "github": "",
+      "img": "blog.png",
+      "file_name": "wip.md",
+      "link": ""
+    },
     {
       "title": "Notte della Ricerca",
       "description": "Contribuire allo sviluppo della ricerca vuol dire guardare al futuro e partecipare concretamente alla sua costruzione.",

@@ -25,6 +25,10 @@
           {
             "name": "SQL",
             "value": 100
+          },
+          {
+            "name": "Django",
+            "value": 50
           }
         ]
     },

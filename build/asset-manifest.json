@@ -1,26 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.dc6752e0.chunk.css",
-    "main.js": "/static/js/main.e4ee0c03.chunk.js",
-    "main.js.map": "/static/js/main.e4ee0c03.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.2c1552e6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.2c1552e6.js.map",
-    "static/js/2.984a932d.chunk.js": "/static/js/2.984a932d.chunk.js",
-    "static/js/2.984a932d.chunk.js.map": "/static/js/2.984a932d.chunk.js.map",
-    "static/js/3.11e4759d.chunk.js": "/static/js/3.11e4759d.chunk.js",
-    "static/js/3.11e4759d.chunk.js.map": "/static/js/3.11e4759d.chunk.js.map",
+    "main.js": "/static/js/main.900a3507.chunk.js",
+    "main.js.map": "/static/js/main.900a3507.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f51373b5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f51373b5.js.map",
+    "static/js/2.b6f53c41.chunk.js": "/static/js/2.b6f53c41.chunk.js",
+    "static/js/2.b6f53c41.chunk.js.map": "/static/js/2.b6f53c41.chunk.js.map",
+    "static/js/3.ea0b4695.chunk.js": "/static/js/3.ea0b4695.chunk.js",
+    "static/js/3.ea0b4695.chunk.js.map": "/static/js/3.ea0b4695.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.dc6752e0.chunk.css.map": "/static/css/main.dc6752e0.chunk.css.map",
-    "static/js/2.984a932d.chunk.js.LICENSE.txt": "/static/js/2.984a932d.chunk.js.LICENSE.txt",
+    "static/js/2.b6f53c41.chunk.js.LICENSE.txt": "/static/js/2.b6f53c41.chunk.js.LICENSE.txt",
     "static/media/adrenalina.webp": "/static/media/adrenalina.d5b11ae1.webp",
     "static/media/alibi.webp": "/static/media/alibi.fd7a6cf8.webp",
+    "static/media/blog.png": "/static/media/blog.747b4cde.png",
     "static/media/c.webp": "/static/media/c.2cd29b00.webp",
     "static/media/cefriel.webp": "/static/media/cefriel.eacef357.webp",
     "static/media/chorify.webp": "/static/media/chorify.85242bb5.webp",
     "static/media/conturbanti.webp": "/static/media/conturbanti.64360248.webp",
     "static/media/conturbanti.md": "/static/media/conturbanti.f69fde86.md",
     "static/media/cv-foto.webp": "/static/media/cv-foto.af9c04be.webp",
-    "static/media/davide-lista-cv.pdf": "/static/media/davide-lista-cv.81071441.pdf",
+    "static/media/davide-lista-cv.pdf": "/static/media/davide-lista-cv.368b75b5.pdf",
     "static/media/desimoni.webp": "/static/media/desimoni.22f7cf57.webp",
     "static/media/digitally.webp": "/static/media/digitally.0acd53a9.webp",
     "static/media/dl-blu-small.png": "/static/media/dl-blu-small.dc264aa1.png",
@@ -102,9 +103,9 @@
     "static/media/wip.md": "/static/media/wip.0551b8d9.md"
   },
   "entrypoints": [
-    "static/js/runtime-main.2c1552e6.js",
-    "static/js/2.984a932d.chunk.js",
+    "static/js/runtime-main.f51373b5.js",
+    "static/js/2.b6f53c41.chunk.js",
     "static/css/main.dc6752e0.chunk.css",
-    "static/js/main.e4ee0c03.chunk.js"
+    "static/js/main.900a3507.chunk.js"
   ]
 }
