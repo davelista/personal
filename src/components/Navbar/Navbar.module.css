@@ -60,6 +60,12 @@
     cursor: pointer;
 }
 
+.itemColored{
+    color: var(--white);
+    padding: 0.5rem;
+    background-color: var(--firstColor);
+}
+
 @media (max-width: 1366px){
     .navbar {
         padding: 20px 5%;
