@@ -1,5 +1,12 @@
   [
     {
+      "title": "Docente",
+      "period": "Apr 2022 - Giu 2022",
+      "place": "Lacerba.io",
+      "external": "https://lacerba.io/",
+      "img": "lacerba.webp"
+    },
+    {
       "title": "Socio lavoratore",
       "period": "Nov 2021 - In corso",
       "place": "SienaGenTest S.R.L.",
@@ -8,7 +15,7 @@
     },
     {
       "title": "Docente",
-      "period": "Mag 2021 - In corso",
+      "period": "Mag 2021 - Gennaio 2022",
       "place": "DigitAlly",
       "external": "https://digit-ally.it/",
       "img": "digitally.webp"

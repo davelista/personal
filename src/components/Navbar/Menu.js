@@ -10,6 +10,7 @@ function Menu(props) {
     const {openMobile, onChangeOpenMobile} = props;
     const isMobile = useMediaQuery(Device.sm);
     const [open, setOpen] = React.useState(false);
+    const path = window.location.pathname;
 
     const anchorRef = React.useRef(null);
     const handleToggle = () => {
@@ -93,9 +94,10 @@ function Menu(props) {
                 <HashLink to='/details/#experiences'>
                 <div className={styles.item} onClick={closeMobileMenu}>ESPERIENZE</div>
                 </HashLink>
-                <a href='https://davidelista.tech' target={"_blank"}>
+                {path !== '/' ? null : <a href='https://davidelista.tech' target={"_blank"}>
                     <div className={styles.itemColored} onClick={closeMobileMenu}>TECH IT EASY</div>
-                </a>
+                </a>}
+
             </div>
         </>
     );
