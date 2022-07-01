@@ -56,7 +56,7 @@ const useStyles = makeStyles( theme => ({
 const ProjectCard = (props) => {
     const {title, description, tag, datore, internal, external, github, img, languages, projectName, onClick} = props;
     let url = require('../../data/img/projects/' + img);
-    const background = ["#AED9E0", "#D8E4FF"]
+    const background = ["#AED9E0", "#D8E4FF", "#ffc87b"]
 
     const classes = useStyles();
     return (
@@ -98,7 +98,7 @@ const ProjectCard = (props) => {
                             Scopri di più
                         </Button>
                     </a> : null}
-                    {external !== "" ?  <a href={external}>
+                    {external !== "" ?  <a href={external} target={"_blank"}>
                         <Button size="small" color="primary">
                             <VscGlobe size={25}/>
                         </Button>

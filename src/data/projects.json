@@ -1,5 +1,18 @@
   [
     {
+      "title": "Shadow Sync Project",
+      "description": "Shadow Sync Project (SSP) è un'installazione interattiva con l'obiettivo di trovare una connessione tra persone attraverso i movimenti del corpo",
+      "tag": "Sviluppo",
+      "languages": ["C++", "Python", "SuperCollider"],
+      "datore": "Università",
+      "internal": "",
+      "external": "https://www.youtube.com/watch?v=WywPZo97_bc",
+      "github": "https://github.com/Jacopo-brz/Shadow_sync_project",
+      "img": "ssp.webp",
+      "file_name": "wip.md",
+      "link": ""
+    },
+    {
       "title": "Tech it easy",
       "description": "Tech it easy è il mio \"diario digitale\" dove pubblicherò le cose più disparate in ambito tecnologico e informatico.",
       "tag": "Sviluppo",
@@ -8,7 +21,7 @@
       "internal": "",
       "external": "https://davidelista.tech/",
       "github": "",
-      "img": "blog.png",
+      "img": "blog.webp",
       "file_name": "wip.md",
       "link": ""
     },
