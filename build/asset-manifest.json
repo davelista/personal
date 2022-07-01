@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.734db40d.chunk.css",
-    "main.js": "/static/js/main.04442d9b.chunk.js",
-    "main.js.map": "/static/js/main.04442d9b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f51373b5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f51373b5.js.map",
-    "static/js/2.b6f53c41.chunk.js": "/static/js/2.b6f53c41.chunk.js",
-    "static/js/2.b6f53c41.chunk.js.map": "/static/js/2.b6f53c41.chunk.js.map",
-    "static/js/3.ea0b4695.chunk.js": "/static/js/3.ea0b4695.chunk.js",
-    "static/js/3.ea0b4695.chunk.js.map": "/static/js/3.ea0b4695.chunk.js.map",
+    "main.js": "/static/js/main.d300641c.chunk.js",
+    "main.js.map": "/static/js/main.d300641c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19120011.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19120011.js.map",
+    "static/js/2.24d18b3f.chunk.js": "/static/js/2.24d18b3f.chunk.js",
+    "static/js/2.24d18b3f.chunk.js.map": "/static/js/2.24d18b3f.chunk.js.map",
+    "static/js/3.7e9f559c.chunk.js": "/static/js/3.7e9f559c.chunk.js",
+    "static/js/3.7e9f559c.chunk.js.map": "/static/js/3.7e9f559c.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.734db40d.chunk.css.map": "/static/css/main.734db40d.chunk.css.map",
-    "static/js/2.b6f53c41.chunk.js.LICENSE.txt": "/static/js/2.b6f53c41.chunk.js.LICENSE.txt",
+    "static/js/2.24d18b3f.chunk.js.LICENSE.txt": "/static/js/2.24d18b3f.chunk.js.LICENSE.txt",
     "static/media/adrenalina.webp": "/static/media/adrenalina.d5b11ae1.webp",
     "static/media/alibi.webp": "/static/media/alibi.fd7a6cf8.webp",
-    "static/media/blog.png": "/static/media/blog.747b4cde.png",
+    "static/media/blog.webp": "/static/media/blog.79ad64d1.webp",
     "static/media/c.webp": "/static/media/c.2cd29b00.webp",
     "static/media/cefriel.webp": "/static/media/cefriel.eacef357.webp",
     "static/media/chorify.webp": "/static/media/chorify.85242bb5.webp",
@@ -35,6 +35,7 @@
     "static/media/ilcubo.webp": "/static/media/ilcubo.457159c2.webp",
     "static/media/iplus.webp": "/static/media/iplus.624b143a.webp",
     "static/media/juce.webp": "/static/media/juce.5268a592.webp",
+    "static/media/lacerba.webp": "/static/media/lacerba.edd13563.webp",
     "static/media/me-ne-infisco.pdf": "/static/media/me-ne-infisco.9d4e42bf.pdf",
     "static/media/meneinfisco-1-small.jpg": "/static/media/meneinfisco-1-small.c23420cf.jpg",
     "static/media/meneinfisco-1.jpg": "/static/media/meneinfisco-1.101177a2.jpg",
@@ -93,6 +94,7 @@
     "static/media/s4s.webp": "/static/media/s4s.0820e7c7.webp",
     "static/media/sienagentest.webp": "/static/media/sienagentest.9bde074f.webp",
     "static/media/social.webp": "/static/media/social.4748b0b2.webp",
+    "static/media/ssp.webp": "/static/media/ssp.0826da0f.webp",
     "static/media/tasse-antica-roma.pdf": "/static/media/tasse-antica-roma.e3bbdbf5.pdf",
     "static/media/tasse-antico-egitto.pdf": "/static/media/tasse-antico-egitto.96d6a41a.pdf",
     "static/media/tasse-medioevo.pdf": "/static/media/tasse-medioevo.cf63ee4a.pdf",
@@ -103,9 +105,9 @@
     "static/media/wip.md": "/static/media/wip.0551b8d9.md"
   },
   "entrypoints": [
-    "static/js/runtime-main.f51373b5.js",
-    "static/js/2.b6f53c41.chunk.js",
+    "static/js/runtime-main.19120011.js",
+    "static/js/2.24d18b3f.chunk.js",
     "static/css/main.734db40d.chunk.css",
-    "static/js/main.04442d9b.chunk.js"
+    "static/js/main.d300641c.chunk.js"
   ]
 }
