@@ -104,10 +104,10 @@
       "link": "urban-sound-classification"
     },
     {
-      "title": "Tutoring - in fase di sviluppo",
+      "title": "Tutoring",
       "description": "Da ormai diversi anni svolgo un lavoro di tutoring a studenti di diverse età (in particolare frequentanti licei e università)...",
       "tag": "E-learning",
-      "languages": ["React.js"],
+      "languages": ["Next.js"],
       "datore": "Personale",
       "internal": "",
       "external": "https://tutoring.davidelista.com",

@@ -94,9 +94,9 @@ function Menu(props) {
                 <HashLink to='/details/#experiences'>
                 <div className={styles.item} onClick={closeMobileMenu}>ESPERIENZE</div>
                 </HashLink>
-                {path !== '/' ? null : <a href='https://davidelista.tech' target={"_blank"}>
+                {/*path !== '/' ? null : <a href='https://davidelista.tech' target={"_blank"}>
                     <div className={styles.itemColored} onClick={closeMobileMenu}>TECH IT EASY</div>
-                </a>}
+                </a>*/}
 
             </div>
         </>
