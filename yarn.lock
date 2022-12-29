@@ -9532,11 +9532,6 @@
   "resolved" "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.9.tgz"
   "version" "6.0.9"
 
-"react-ga@^3.3.0":
-  "integrity" "sha512-o8RScHj6Lb8cwy3GMrVH6NJvL+y0zpJvKtc0+wmH7Bt23rszJmnqEQxRbyrqUzk9DTJIHoP42bfO5rswC9SWBQ=="
-  "resolved" "https://registry.npmjs.org/react-ga/-/react-ga-3.3.0.tgz"
-  "version" "3.3.0"
-
 "react-icons@^4.2.0":
   "integrity" "sha512-rmzEDFt+AVXRzD7zDE21gcxyBizD/3NqjbX6cmViAgdqfJ2UiLer8927/QhhrXQV7dEj/1EGuOTPp7JnLYVJKQ=="
   "resolved" "https://registry.npmjs.org/react-icons/-/react-icons-4.2.0.tgz"

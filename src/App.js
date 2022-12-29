@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Redirect } from "react-router";
 import { AppContext, useAppContext } from "./context/AppContext";
 import ScrollToTop from "./pages/ScrollToTop";
-import ReactGA from "react-ga";
 import Project from "./pages/Project";
 
 const App = () => {
