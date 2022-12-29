@@ -21,6 +21,7 @@ const App = () => {
       return (
         <>
             <AppContext.Provider value={appData}>
+                <script defer data-domain="davidelista.com" src="https://analytics.davidelista.com/js/script.js"></script>
                 <Router>
                     <ScrollToTop>
                     <Navbar/>
