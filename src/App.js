@@ -10,7 +10,7 @@ import Project from "./pages/Project";
 
 const App = () => {
 
-    useEffect(() => {
+  /*  useEffect(() => {
         ReactGA.initialize("UA-142377641-1 ");
         //to report page view
         ReactGA.pageview(window.location.pathname + window.location.search);
@@ -19,7 +19,7 @@ const App = () => {
         script.src = "https://analytics.davidelista.com/js/script.js"
         script.async = true;
         document.body.appendChild(script)
-    }, []);
+    }, []);*/
 
     const appData = useAppContext();
 
