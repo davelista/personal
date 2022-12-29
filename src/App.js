@@ -14,6 +14,11 @@ const App = () => {
         ReactGA.initialize("UA-142377641-1 ");
         //to report page view
         ReactGA.pageview(window.location.pathname + window.location.search);
+
+        const script = document.createElement('script')
+        script.src = "https://analytics.davidelista.com/js/script.js"
+        script.async = true;
+        document.body.appendChild(script)
     }, []);
 
     const appData = useAppContext();
@@ -21,9 +26,10 @@ const App = () => {
       return (
         <>
             <AppContext.Provider value={appData}>
-                <script defer data-domain="davidelista.com" src="https://analytics.davidelista.com/js/script.js"></script>
+
                 <Router>
                     <ScrollToTop>
+                        <div><script defer data-domain="davidelista.com" src=""></script></div>
                     <Navbar/>
                     <Switch>
                         <Route exact path="/">
