@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.734db40d.chunk.css",
-    "main.js": "/static/js/main.247f7c45.chunk.js",
-    "main.js.map": "/static/js/main.247f7c45.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5da97770.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5da97770.js.map",
-    "static/js/2.6668d2ee.chunk.js": "/static/js/2.6668d2ee.chunk.js",
-    "static/js/2.6668d2ee.chunk.js.map": "/static/js/2.6668d2ee.chunk.js.map",
-    "static/js/3.778ae818.chunk.js": "/static/js/3.778ae818.chunk.js",
-    "static/js/3.778ae818.chunk.js.map": "/static/js/3.778ae818.chunk.js.map",
+    "main.js": "/static/js/main.69b25170.chunk.js",
+    "main.js.map": "/static/js/main.69b25170.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19120011.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19120011.js.map",
+    "static/js/2.ae8ac317.chunk.js": "/static/js/2.ae8ac317.chunk.js",
+    "static/js/2.ae8ac317.chunk.js.map": "/static/js/2.ae8ac317.chunk.js.map",
+    "static/js/3.7e9f559c.chunk.js": "/static/js/3.7e9f559c.chunk.js",
+    "static/js/3.7e9f559c.chunk.js.map": "/static/js/3.7e9f559c.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.734db40d.chunk.css.map": "/static/css/main.734db40d.chunk.css.map",
-    "static/js/2.6668d2ee.chunk.js.LICENSE.txt": "/static/js/2.6668d2ee.chunk.js.LICENSE.txt",
+    "static/js/2.ae8ac317.chunk.js.LICENSE.txt": "/static/js/2.ae8ac317.chunk.js.LICENSE.txt",
     "static/media/adrenalina.webp": "/static/media/adrenalina.d5b11ae1.webp",
     "static/media/alibi.webp": "/static/media/alibi.fd7a6cf8.webp",
     "static/media/blog.webp": "/static/media/blog.79ad64d1.webp",
     "static/media/c.webp": "/static/media/c.2cd29b00.webp",
     "static/media/cefriel.webp": "/static/media/cefriel.eacef357.webp",
     "static/media/chorify.webp": "/static/media/chorify.85242bb5.webp",
+    "static/media/consulting.webp": "/static/media/consulting.6f577098.webp",
     "static/media/conturbanti.webp": "/static/media/conturbanti.64360248.webp",
     "static/media/conturbanti.md": "/static/media/conturbanti.f69fde86.md",
     "static/media/cv-foto.webp": "/static/media/cv-foto.af9c04be.webp",
@@ -105,9 +106,9 @@
     "static/media/wip.md": "/static/media/wip.0551b8d9.md"
   },
   "entrypoints": [
-    "static/js/runtime-main.5da97770.js",
-    "static/js/2.6668d2ee.chunk.js",
+    "static/js/runtime-main.19120011.js",
+    "static/js/2.ae8ac317.chunk.js",
     "static/css/main.734db40d.chunk.css",
-    "static/js/main.247f7c45.chunk.js"
+    "static/js/main.69b25170.chunk.js"
   ]
 }

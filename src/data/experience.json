@@ -1,6 +1,20 @@
   [
     {
       "title": "Docente",
+      "period": "Nov 2022 - In corso",
+      "place": "Consulting S.P.A.",
+      "external": "https://consulting.it/",
+      "img": "consulting.webp"
+    },
+    {
+      "title": "Insegnante",
+      "period": "Ott 2022 - Gen 2023",
+      "place": "Liceo sceintifico Carlo Donegani",
+      "external": "https://www.lsdonegani.edu.it/",
+      "img": "donegani.webp"
+    },
+    {
+      "title": "Docente",
       "period": "Apr 2022 - Giu 2022",
       "place": "Lacerba.io",
       "external": "https://lacerba.io/",
