@@ -1,5 +1,18 @@
   [
     {
+      "title": "aarmusic.it",
+      "description": "Sviluppo della Web App aarmusic.it per la gestione dell'attività dell'etichetta fino al primo rilascio (agosto 2023)",
+      "tag": "Sviluppo",
+      "languages": ["React.js", "Python"],
+      "datore": "AAR Music",
+      "internal": "",
+      "external": "https://aarmusic.it",
+      "github": "",
+      "img": "aarmusic.webp",
+      "file_name": "wip.md",
+      "link": ""
+    },
+    {
       "title": "Shadow Sync Project",
       "description": "Shadow Sync Project (SSP) è un'installazione interattiva con l'obiettivo di trovare una connessione tra persone attraverso i movimenti del corpo",
       "tag": "Sviluppo",
