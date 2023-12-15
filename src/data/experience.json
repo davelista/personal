@@ -1,7 +1,14 @@
   [
     {
+      "title": "Consulente Informatico",
+      "period": "Giu 2023 - In corso",
+      "place": "Consulting S.P.A.",
+      "external": "https://consulting.it/",
+      "img": "consulting.webp"
+    },
+    {
       "title": "Full-Stack Developer",
-      "period": "Giu 2022 - Ago 2023",
+      "period": "Giu 2022 - Giu 2023",
       "place": "AAR Music S.R.L.",
       "external": "https://aarmusic.it/",
       "img": "aarmusic.webp"
@@ -16,7 +23,7 @@
     {
       "title": "Insegnante",
       "period": "Ott 2022 - Gen 2023",
-      "place": "Liceo sceintifico Carlo Donegani",
+      "place": "Liceo scientifico Carlo Donegani",
       "external": "https://www.lsdonegani.edu.it/",
       "img": "donegani.webp"
     },
